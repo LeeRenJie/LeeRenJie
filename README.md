@@ -17,7 +17,7 @@ continuously self learning, wanting to impact the community and hopefully the wo
   <img src="https://profile-counter.glitch.me/LeeRenJie/count.svg" />
 
 ## My handles:
-<a href="mailto:work.renjie@gmail.com"> <img src="https://img.shields.io/badge/work.renjie@gmail.com-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" ></a> <a href="https://www.linkedin.com/in/leerenjie/"><img src="https://img.shields.io/badge/Lee Ren Jie-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" ></a>   <a  href="https://stackoverflow.com/users/story/14742922"><img src="https://img.shields.io/badge/Lee Ren Jie-%2312100E.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white"></a>
+<a href="mailto:work.renjie@gmail.com"> <img src="https://img.shields.io/badge/work.renjie@gmail.com-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" ></a> <a href="https://www.linkedin.com/in/leerenjie/"><img src="https://img.shields.io/badge/Lee Ren Jie-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" ></a>   <a  href="https://stackoverflow.com/users/story/14742922"><img src="https://img.shields.io/badge/Lee Ren Jie-%2312100E.svg?&style=for-the-badge&logo=stackoverflow"></a>
 <br>
 
 ## Tools in my pocket🛠
