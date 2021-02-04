@@ -1,8 +1,17 @@
-<h1 align="center">Hello there, I'm Lee Ren Jie 👋</h1>
+<p align="center" >
+  <samp>
+    My name is <em>Lee Ren Jie</em>. I am learning to be a Fullstack Web Developer (MERN) 
+  <br/> Artificial Intelligence Enthusiast!! I Love the impact of AI 
+   <br /> Love building websites to funnel my creativity
+    <br/> Fulltime Diploma Student at Asia Pacific University specialized in Software Engineering...
+      <br/>
+Love sports, music, and a hot cup of tea 🍵
+          <br/>
+continuously self learning, wanting to impact the community and hopefully the world
+  </samp>
+</p><br/>
 
-
-![cat](https://media.giphy.com/media/aNqEFrYVnsS52/giphy.gif)
-<br><br><br><br>
+<img src="https://media.tenor.com/images/df8c44a1d20ab367fdcb21880985fd33/tenor.gif" align="right"  width="30%"/>
 
  ### Profile Views :<br>
   <img src="https://profile-counter.glitch.me/LeeRenJie/count.svg" />
@@ -17,12 +26,10 @@
 
 <br>
 
-![Lee Ren Jie's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green" align=left>
+<img src="https://github-readme-stats.vercel.app/api?username=LeeRenJie&show_icons=true&theme=dracula" align=right width=50%>
 
-<br>
 
-## Summary of my GitHub activity
-![Lee Ren Jie's GitHub stats](https://github-readme-stats.vercel.app/api?username=LeeRenJie&show_icons=true&theme=dracula)
 
 
 
