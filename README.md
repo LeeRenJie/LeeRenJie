@@ -3,11 +3,12 @@
     My name is <em>Lee Ren Jie</em>. I am learning to be a Fullstack Web Developer (MERN) 
   <br/> Artificial Intelligence Enthusiast!! I Love the impact of AI 
    <br /> Love building websites to funnel my creativity
+    <br /> Love the feeling when my PR is merged as an Open Source Contributor
     <br/> Fulltime Diploma Student at Asia Pacific University specialized in Software Engineering...
       <br/>
 Love sports, music, and a hot cup of tea 🍵
           <br/>
-continuously self learning, wanting to impact the community and hopefully the world
+Continuously self learning, wanting to impact the community and hopefully the world
   </samp>
 </p><br/>
 
