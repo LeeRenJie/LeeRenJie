@@ -32,7 +32,7 @@ continuously self learning, wanting to impact the community and hopefully the wo
 <img src="https://img.shields.io/badge/-VS%20Code-blue?style=for-the-badge&logo=Visual-studio-code&logoColor=white" > 
 <img src="https://img.shields.io/badge/-Heroku%20-grey?style=for-the-badge&logo=heroku&logoColor=white" > 
 <img src="https://img.shields.io/badge/-JQuery%20-blue?style=for-the-badge&logo=jquery&logoColor=white" >
-<img src="https://img.shields.io/badge/-Nodejs%20-green?style=for-the-badge&logo=Node.js&logoColor=white">
+<img src="https://img.shields.io/badge/-Nodejs%20-black?style=for-the-badge&logo=Node.js&logoColor=green">
 <img src="https://img.shields.io/badge/-MongoDB%20-FCA121?style=for-the-badge&logo=mongodb&logoColor=green">
 <img src="https://img.shields.io/badge/-json%20-02569B?style=for-the-badge&logo=json&logoColor=white">
   </p>
