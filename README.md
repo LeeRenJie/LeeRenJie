@@ -37,7 +37,7 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 <img src="https://img.shields.io/badge/-Heroku%20-grey?style=for-the-badge&logo=heroku&logoColor=white" > 
 <img src="https://img.shields.io/badge/-JQuery%20-blue?style=for-the-badge&logo=jquery&logoColor=white" >
 <img src="https://img.shields.io/badge/-JSON%20-02569B?style=for-the-badge&logo=json&logoColor=white">
-<img src="https://img.shields.io/badge/-MailChimp%20-brown?style=for-the-badge&logo=mailchimp">
+<img src="https://img.shields.io/badge/-MailChimp%20-black?style=for-the-badge&logo=mailchimp">
 <img src="https://img.shields.io/badge/-PostMan%20-grey?style=for-the-badge&logo=postman">
 <img src="https://img.shields.io/badge/-Figma%20-purple?style=for-the-badge&logo=figma">
 <img src="https://img.shields.io/badge/-SASS%20-pink?style=for-the-badge&logo=sass">
