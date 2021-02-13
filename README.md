@@ -12,7 +12,7 @@ Continuously self learning, wanting to impact the community and hopefully the wo
   </samp>
 </p><br/>
 
-<img src="https://media.tenor.com/images/df8c44a1d20ab367fdcb21880985fd33/tenor.gif" align="right"  width="40%"/>
+<img src="https://media.tenor.com/images/df8c44a1d20ab367fdcb21880985fd33/tenor.gif" align="right"  width="20%"/>
 
  ### Profile Views :<br>
   <img src="https://profile-counter.glitch.me/LeeRenJie/count.svg" />
