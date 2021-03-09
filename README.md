@@ -32,8 +32,8 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 <img src="https://img.shields.io/badge/-Nodejs%20-%23323330?style=for-the-badge&logo=Node.js&logoColor=green">
 <img src="https://img.shields.io/badge/-firebase%20-black?style=for-the-badge&logo=firebase">
 <img src="https://img.shields.io/badge/-Nextjs%20-grey?style=for-the-badge&logo=next.js">
-<img src="https://img.shields.io/badge/-Redux%20-lightgrey?style=for-the-badge&logo=redux&logoColor=purple">
-<img src="https://img.shields.io/badge/-Redux%20-grey?style=for-the-badge&logo=gatsby">
+<img src="https://img.shields.io/badge/-Redux%20-white?style=for-the-badge&logo=redux&logoColor=purple">
+<img src="https://img.shields.io/badge/-gatsby%20-white?style=for-the-badge&logo=gatsby&logoColor=purple">
 <img src="https://img.shields.io/badge/-Threejs%20-grey?style=for-the-badge&logo=three.js">
 <img src="https://img.shields.io/badge/-python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white" >  
 <img src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white" >   
