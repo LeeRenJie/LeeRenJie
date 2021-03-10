@@ -12,7 +12,7 @@ Continuously self learning, wanting to impact the community and hopefully the wo
   </samp>
 </p><br/>
 
-<img src="https://media.giphy.com/media/zOvBKUUEERdNm/giphy.gif" align="right"  width="35%" height="110%"/>
+<img src="https://media.giphy.com/media/zOvBKUUEERdNm/giphy.gif" align="right"  width="40%" height="120%"/>
 
 ## Profile Views 🔍     
   <img src="https://profile-counter.glitch.me/LeeRenJie/count.svg" />
