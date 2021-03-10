@@ -53,5 +53,8 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 </p>
 
 <br>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=40% align=left>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green" width=40% align=left>
 <img src="https://github-readme-stats.vercel.app/api?username=LeeRenJie&show_icons=true&theme=dracula" align=right width=50% >
+
+## Projects In Progress ⚙
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Portfolio&show_owner=true)](https://github.com/LeeRenJie/Portfolio)
