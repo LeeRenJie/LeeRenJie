@@ -59,6 +59,6 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 
 ## Status Summary 📈
 <div position=flex>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=48% align=left>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=45% align=left>
 <img src="https://github-readme-stats.vercel.app/api?username=LeeRenJie&show_icons=true&theme=dracula" align=right width=50% > 
 </div>
