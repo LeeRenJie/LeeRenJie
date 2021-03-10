@@ -40,7 +40,7 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 <img src="https://img.shields.io/badge/-MailChimp%20-%23323330?style=for-the-badge&logo=mailchimp">
   </p>
   
-## Technology to learn in 2021 📚
+## Technologies to learn in 2021 📚
 <p>
 <img src="https://img.shields.io/badge/-PostMan%20-grey?style=for-the-badge&logo=postman">
 <img src="https://img.shields.io/badge/-Figma%20-purple?style=for-the-badge&logo=figma">
@@ -53,9 +53,12 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 </p>
 
 ## Projects In Progress ⚙
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Portfolio&show_owner=true)](https://github.com/LeeRenJie/Portfolio)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Portfolio&show_owner=true&theme=nord)](https://github.com/LeeRenJie/Portfolio)
 
+<br><br>
+
+## Status Summary 📈
 <div position=flex>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green" width=40% align=left>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=50% align=left>
 <img src="https://github-readme-stats.vercel.app/api?username=LeeRenJie&show_icons=true&theme=dracula" align=right width=50% > 
 </div>
