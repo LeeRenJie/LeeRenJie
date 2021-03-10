@@ -14,7 +14,7 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 
 <img src="https://media.tenor.com/images/df8c44a1d20ab367fdcb21880985fd33/tenor.gif" align="right"  width="25%"/>
 
-## Profile Views🔍     
+## Profile Views 🔍     
   <img src="https://profile-counter.glitch.me/LeeRenJie/count.svg" />
 
 ## Reach Out To Me 📫  
