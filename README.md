@@ -14,10 +14,10 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 
 <img src="https://media.tenor.com/images/df8c44a1d20ab367fdcb21880985fd33/tenor.gif" align="right"  width="25%"/>
 
- ### Profile Views :<br>
+### Profile Views :<br>
   <img src="https://profile-counter.glitch.me/LeeRenJie/count.svg" />
 
-## My handles:
+## Reach Out To Me:
 <a href="mailto:work.renjie@gmail.com"> <img src="https://img.shields.io/badge/work.renjie@gmail.com-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" ></a> <a href="https://www.linkedin.com/in/leerenjie/"><img src="https://img.shields.io/badge/Lee Ren Jie-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" ></a>   <a  href="https://stackoverflow.com/users/story/14742922"><img src="https://img.shields.io/badge/Lee Ren Jie-%2312100E.svg?&style=for-the-badge&logo=stackoverflow"></a>
 <br>
 
@@ -52,12 +52,10 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 <img src="https://img.shields.io/badge/-Threejs%20-grey?style=for-the-badge&logo=three.js">
 </p>
 
-<br/>
-<p>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green" width=40% align=left>
-<img src="https://github-readme-stats.vercel.app/api?username=LeeRenJie&show_icons=true&theme=dracula" align=right width=50% > 
-</p>
-<br/>
-
 ## Projects In Progress ⚙
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Portfolio&show_owner=true)](https://github.com/LeeRenJie/Portfolio)
+
+<div position=flex>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green" width=40% align=left>
+<img src="https://github-readme-stats.vercel.app/api?username=LeeRenJie&show_icons=true&theme=dracula" align=right width=50% > 
+</div>
