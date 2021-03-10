@@ -55,7 +55,7 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 ## Projects In Progress ⚙
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Portfolio&show_owner=true&theme=nord)](https://github.com/LeeRenJie/Portfolio)
 
-<br><br>
+<br>
 
 ## Status Summary 📈
 <div position=flex>
