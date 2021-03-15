@@ -50,6 +50,7 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 <img src="https://img.shields.io/badge/-Redux%20-white?style=for-the-badge&logo=redux&logoColor=purple">
 <img src="https://img.shields.io/badge/-gatsby%20-white?style=for-the-badge&logo=gatsby&logoColor=purple">
 <img src="https://img.shields.io/badge/-Threejs%20-grey?style=for-the-badge&logo=three.js">
+<img src="https://img.shields.io/badge/-Typescript%20-white?style=for-the-badge&logo=typescript">
 <img src="https://img.shields.io/badge/-Babylonjs%20-grey?style=for-the-badge&logo=Babylon.js">
   <img src="https://img.shields.io/badge/-Naker%20-grey?style=for-the-badge&logo=Naker">
 </p>
