@@ -56,30 +56,29 @@ Continuously self learning, wanting to impact the community and hopefully the wo
   <img src="https://img.shields.io/badge/-Naker%20-grey?style=for-the-badge&logo=Naker">
 </p>
 
-## Projects In Progress ⚙      
-<table>
-  <tr>
-  <td> 
-    
-   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Portfolio&show_owner=true&theme=nord)](https://github.com/LeeRenJie/Portfolio)   
-    
-   </td>
-   <td
-   
-   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Travo&show_owner=true&theme=nord)](https://github.com/LeeRenJie/Travo)
-    
-   </td>
-  </tr>
-  <tr>
-  <td>
-    
-   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=100-days-of-code-in-python&show_owner=true&theme=nord)](https://github.com/LeeRenJie/100-days-of-code-in-python)
-  
-  </td>
-  </tr>
-</table>
+## Projects In Progress ⚙     
+<div>
+<a href="https://github.com/LeeRenJie/Portfolio">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Portfolio&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%"/>
+</a>
 
-## Status Summary 📈
+<a href="https://github.com/LeeRenJie/Travo">
+  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Travo&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%"/>
+</a>
+
+<br/>
+
+<a href="https://github.com/LeeRenJie/100-days-of-code-in-python">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=100-days-of-code-in-python&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%" />
+</a>
+
+<a href="https://github.com/LeeRenJie/100-days-of-code-in-python">
+  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=100-days-of-code-in-python&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%" />
+</a>
+</div>
+<br/>  
+
+## GitHub Summary 📈  
 <div position=flex>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=45% align=left>
 <img src="https://github-readme-stats.vercel.app/api?username=LeeRenJie&show_icons=true&theme=dracula" align=right width=50% > 
