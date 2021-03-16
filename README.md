@@ -73,7 +73,7 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 </a>
 </p>
 
-</br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br>
 
 <p>
 <a href="https://github.com/LeeRenJie/100-days-of-code-in-python">
