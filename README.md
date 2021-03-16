@@ -1,3 +1,4 @@
+<img src="https://github.com/LeeRenJie/LeeRenJie/blob/main/images/Banner.png" width="100%">
 <p align="center" >
   <samp>
     My name is <em>Lee Ren Jie</em>. I am learning to be a Fullstack Web Developer (MERN) 
@@ -12,7 +13,7 @@ Continuously self learning, wanting to impact the community and hopefully the wo
   </samp>
 </p><br/>
 
-<img src="https://media.giphy.com/media/zOvBKUUEERdNm/giphy.gif" align="right"  width="40%" height="120%"/>
+<img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" align="right"  width="40%" height="120%"/>
 
 ## Profile Views 🔍     
   <img src="https://profile-counter.glitch.me/LeeRenJie/count.svg" />
