@@ -57,7 +57,8 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 </p>
 
 ## Projects In Progress ⚙     
-<div>
+<span>
+  
 <a href="https://github.com/LeeRenJie/Portfolio">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Portfolio&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%"/>
 </a>
@@ -66,8 +67,12 @@ Continuously self learning, wanting to impact the community and hopefully the wo
   <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Travo&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%"/>
 </a>
 
+</span>
+
 <br/>
 
+<span>
+  
 <a href="https://github.com/LeeRenJie/100-days-of-code-in-python">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=100-days-of-code-in-python&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%" />
 </a>
@@ -75,11 +80,15 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 <a href="https://github.com/LeeRenJie/100-days-of-code-in-python">
   <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=100-days-of-code-in-python&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%" />
 </a>
-</div>
-<br/>  
+
+</span>
+
+<br/>
 
 ## GitHub Summary 📈  
-<div position=flex>
+<span>
+  
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=45% align=left>
 <img src="https://github-readme-stats.vercel.app/api?username=LeeRenJie&show_icons=true&theme=dracula" align=right width=50% > 
-</div>
+
+</span>
