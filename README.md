@@ -60,12 +60,20 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=45% align=left>
 <img src="https://github-readme-stats.vercel.app/api?username=LeeRenJie&show_icons=true&theme=dracula" align=right width=50% >  
 
-<br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
 
-## Projects In Progress ⚙     
+## Projects In Progress ⚙    
+<p>
 <a href="https://github.com/LeeRenJie/Portfolio">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Portfolio&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%"/>  
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Portfolio&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%" />
 </a>
+
 <a href="https://github.com/LeeRenJie/Travo">
-  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Travo&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%"/>  
+  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Travo&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%"/>
 </a>
+</p>
+<p>
+<a href="https://github.com/LeeRenJie/100-days-of-code-in-python">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=100-days-of-code-in-python&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%"/>
+</a>
+</p>
