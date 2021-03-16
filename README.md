@@ -57,8 +57,27 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 </p>
 
 ## Projects In Progress ⚙      
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Portfolio&show_owner=true&theme=nord)](https://github.com/LeeRenJie/Portfolio)         [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Travo&show_owner=true&theme=nord)](https://github.com/LeeRenJie/Travo)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=100-days-of-code-in-python&show_owner=true&theme=nord)](https://github.com/LeeRenJie/100-days-of-code-in-python)
+<table>
+  <tr>
+  <td> 
+    
+   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Portfolio&show_owner=true&theme=nord)](https://github.com/LeeRenJie/Portfolio)   
+    
+   </td>
+   <td
+   
+   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Travo&show_owner=true&theme=nord)](https://github.com/LeeRenJie/Travo)
+    
+   </td>
+  </tr>
+  <tr>
+  <td>
+    
+   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=100-days-of-code-in-python&show_owner=true&theme=nord)](https://github.com/LeeRenJie/100-days-of-code-in-python)
+  
+  </td>
+  </tr>
+</table>
 
 ## Status Summary 📈
 <div position=flex>
