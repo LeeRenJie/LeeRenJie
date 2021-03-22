@@ -57,6 +57,9 @@ Continuously self learning, wanting to impact the community and hopefully the wo
   <img src="https://img.shields.io/badge/-Naker%20-grey?style=for-the-badge&logo=Naker">
 </p>
 
+## Recent Blogs
+- [13 Tips For Freshmen Pursuing Tech](https://leerenjie.hashnode.dev/13-tips-for-freshmen-pursuing-tech "Blog on Hashnode")
+
 ## GitHub Summary 📈  
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=47% align=left>
 <img src="https://github-readme-stats.vercel.app/api?username=LeeRenJie&show_icons=true&theme=dracula" align=right width=47% >  
