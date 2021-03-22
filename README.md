@@ -20,7 +20,7 @@ Continuously self learning, wanting to impact the community and hopefully the wo
   <img src="https://profile-counter.glitch.me/LeeRenJie/count.svg" />
 
 ## Reach Out To Me 📫  
-<a href="mailto:work.renjie@gmail.com"> <img src="https://img.shields.io/badge/work.renjie@gmail.com-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" ></a> <a href="https://www.linkedin.com/in/leerenjie/"><img src="https://img.shields.io/badge/Lee Ren Jie-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" ></a>   <a  href="https://stackoverflow.com/users/story/14742922"><img src="https://img.shields.io/badge/Lee Ren Jie-%2312100E.svg?&style=for-the-badge&logo=stackoverflow"></a>
+<a href="mailto:work.renjie@gmail.com"> <img src="https://img.shields.io/badge/Gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" ></a> <a href="https://www.linkedin.com/in/leerenjie/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" ></a>   <a  href="https://stackoverflow.com/users/story/14742922"><img src="https://img.shields.io/badge/Stack Overflow-%2312100E.svg?&style=for-the-badge&logo=stackoverflow"></a> <a  href="https://leerenjie.hashnode.dev/"><img src="https://img.shields.io/badge/Hashnode%20-white?&style=for-the-badge&logo=hashnode&logoColor=blue"></a> <a  href="https://tech-with-rj.medium.com/"><img src="https://img.shields.io/badge/Medium%20-black?&style=for-the-badge&logo=medium&logoColor=white"></a> <a  href="https://dev.to/leerenjie"><img src="https://img.shields.io/badge/DEV Community%20-black?&style=for-the-badge&logo=dev.community&logoColor=white"></a>
 <br>
 
 ## Tools in my pocket🛠
@@ -57,7 +57,7 @@ Continuously self learning, wanting to impact the community and hopefully the wo
   <img src="https://img.shields.io/badge/-Naker%20-grey?style=for-the-badge&logo=Naker">
 </p>
 
-## Recent Blogs
+## Recent Blogs 📖
 - [13 Tips For Freshmen Pursuing Tech](https://leerenjie.hashnode.dev/13-tips-for-freshmen-pursuing-tech "Blog on Hashnode")
 
 ## GitHub Summary 📈  
