@@ -4,6 +4,7 @@
     My name is <em>Lee Ren Jie</em>. I am learning to be a Fullstack Web Developer (MERN) 
   <br/> Artificial Intelligence Enthusiast!! I Love the impact of AI 
    <br /> Love building websites from scratch 
+    <br /> Started blogging recently
     <br /> Love the feeling when my PR is merged as an Open Source Contributor
     <br/> Fulltime Diploma Student at Asia Pacific University specialized in Software Engineering...
       <br/>
