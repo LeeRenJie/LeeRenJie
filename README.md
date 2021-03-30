@@ -42,9 +42,11 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 <img src="https://img.shields.io/badge/-MailChimp%20-%23323330?style=for-the-badge&logo=mailchimp">
   </p>
   
-## Technologies to learn in 2021 📚
+## Technologies in progress 📚
 <p>
 <img src="https://img.shields.io/badge/-PostMan%20-grey?style=for-the-badge&logo=postman">
+<img src="https://img.shields.io/badge/-Vue%20-black?style=for-the-badge&logo=vue.js">
+ <img src="https://img.shields.io/badge/-Angular%20-black?style=for-the-badge&logo=angular">
 <img src="https://img.shields.io/badge/-Figma%20-purple?style=for-the-badge&logo=figma">
 <img src="https://img.shields.io/badge/-SASS%20-pink?style=for-the-badge&logo=sass">
 <img src="https://img.shields.io/badge/-firebase%20-black?style=for-the-badge&logo=firebase">
@@ -53,8 +55,8 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 <img src="https://img.shields.io/badge/-gatsby%20-white?style=for-the-badge&logo=gatsby&logoColor=purple">
 <img src="https://img.shields.io/badge/-Threejs%20-grey?style=for-the-badge&logo=three.js">
 <img src="https://img.shields.io/badge/-Typescript%20-white?style=for-the-badge&logo=typescript">
-<img src="https://img.shields.io/badge/-Babylonjs%20-grey?style=for-the-badge&logo=Babylon.js">
-  <img src="https://img.shields.io/badge/-Naker%20-grey?style=for-the-badge&logo=Naker">
+<img src="https://img.shields.io/badge/-Tailwind%20-black?style=for-the-badge&logo=tailwind-css">
+<img src="https://img.shields.io/badge/-Babylonjs%20-grey?style=for-the-badge&logo=Babylon-js">
 </p>
 
 ## Recent Blogs 📖
