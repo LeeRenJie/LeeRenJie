@@ -56,6 +56,8 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 <img src="https://img.shields.io/badge/-Threejs%20-grey?style=for-the-badge&logo=three.js">
 <img src="https://img.shields.io/badge/-Typescript%20-white?style=for-the-badge&logo=typescript">
 <img src="https://img.shields.io/badge/-Tailwind%20-black?style=for-the-badge&logo=tailwind-css">
+<img src="https://img.shields.io/badge/-SQL%20-grey?style=for-the-badge&logo=SQL">
+<img src="https://img.shields.io/badge/-MySQL%20-white?style=for-the-badge&logo=mysql&logoColor=black">
 <img src="https://img.shields.io/badge/-Babylonjs%20-grey?style=for-the-badge&logo=Babylon-js">
 </p>
 
