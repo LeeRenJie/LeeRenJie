@@ -63,6 +63,7 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 
 ## Recent Blogs 📖
 - [13 Tips For Freshmen Pursuing Tech](https://leerenjie.hashnode.dev/13-tips-for-freshmen-pursuing-tech "Blog on Hashnode")
+- [Get your GitHub Student Developer Pack](https://leerenjie.hashnode.dev/get-your-github-student-developer-pack)
 
 ## GitHub Summary 📈  
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=47% align=left>
