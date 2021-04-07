@@ -61,9 +61,16 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 <img src="https://img.shields.io/badge/-Babylonjs%20-grey?style=for-the-badge&logo=Babylon-js">
 </p>
 
-## Recent Blogs 📖
-- [13 Tips For Freshmen Pursuing Tech](https://leerenjie.hashnode.dev/13-tips-for-freshmen-pursuing-tech "Blog on Hashnode")
-- [Get your GitHub Student Developer Pack](https://leerenjie.hashnode.dev/get-your-github-student-developer-pack)
+## Recent [Articles](https://leerenjie.hashnode.dev/) 📖
+- [How to Ship Articles Faster][4]
+- [Wave Animation for Words][3]
+- [Get your GitHub Student Developer Pack][2]
+- [13 Tips For Freshmen Pursuing Tech][1]
+
+[1]: https://leerenjie.hashnode.dev/13-tips-for-freshmen-pursuing-tech
+[2]: https://leerenjie.hashnode.dev/get-your-github-student-developer-pack
+[3]: https://leerenjie.hashnode.dev/wave-animation-for-words
+[4]: https://leerenjie.hashnode.dev/how-to-ship-articles-faster
 
 ## GitHub Summary 📈  
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=47% align=left>
