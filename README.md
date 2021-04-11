@@ -45,8 +45,9 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 ## Technologies in progress 📚
 <p>
 <img src="https://img.shields.io/badge/-PostMan%20-grey?style=for-the-badge&logo=postman">
+<img src="https://img.shields.io/badge/-Ruby%20-white?style=for-the-badge&logo=ruby&logoColor=red">
 <img src="https://img.shields.io/badge/-Vue%20-%2320232a?style=for-the-badge&logo=vue.js">
- <img src="https://img.shields.io/badge/-Angular%20-black?style=for-the-badge&logo=angular">
+<img src="https://img.shields.io/badge/-Angular%20-black?style=for-the-badge&logo=angular">
 <img src="https://img.shields.io/badge/-Figma%20-purple?style=for-the-badge&logo=figma">
 <img src="https://img.shields.io/badge/-SASS%20-pink?style=for-the-badge&logo=sass">
 <img src="https://img.shields.io/badge/-firebase%20-black?style=for-the-badge&logo=firebase">
