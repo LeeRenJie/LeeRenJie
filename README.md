@@ -63,15 +63,11 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 </p>
 
 ## Recent Articles📖
-- [How to Ship Articles Faster][4]
-- [Wave Animation for Words][3]
-- [Get your GitHub Student Developer Pack][2]
-- [13 Tips For Freshmen Pursuing Tech][1]
 
-[1]: https://leerenjie.hashnode.dev/13-tips-for-freshmen-pursuing-tech
-[2]: https://leerenjie.hashnode.dev/get-your-github-student-developer-pack
-[3]: https://leerenjie.hashnode.dev/wave-animation-for-words
-[4]: https://leerenjie.hashnode.dev/how-to-ship-articles-faster
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+▶ [...more blog articles](https://leerenjie.hashnode.dev/)
 
 <hr/>
 
