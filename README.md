@@ -65,11 +65,11 @@ Continuously self learning, wanting to impact the community and hopefully the wo
 ## Recent Articles📖
 
 <!-- BLOG-POST-LIST:START -->
+- [Top 5 Reasons Why I Blog](https://leerenjie.hashnode.dev/top-5-reasons-why-i-blog)
 - [Day 5: Building an Effective Developer Portfolio](https://leerenjie.hashnode.dev/building-an-effective-developer-portfolio)
 - [Day 4: Several Revenue Models for Software Engineers](https://leerenjie.hashnode.dev/several-revenue-models-for-software-engineers)
 - [Importance Of LinkedIn For Tech Students](https://leerenjie.hashnode.dev/importance-of-linkedin-for-tech-students-1)
 - [Building a Portfolio Website (My Plan)](https://leerenjie.hashnode.dev/building-a-portfolio-website)
-- [Day 3: Stand Out by Building a Personal Brand](https://leerenjie.hashnode.dev/stand-out-by-building-a-personal-brand)
 <!-- BLOG-POST-LIST:END -->
 
 ▶ [...more blog articles](https://leerenjie.hashnode.dev/)
