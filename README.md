@@ -1,16 +1,15 @@
 <img src="https://github.com/LeeRenJie/LeeRenJie/blob/main/images/Banner.png" width="100%">
 <p align="center" >
   <samp>
-    My name is <em>Lee Ren Jie</em>. I am learning to be a Fullstack Web Developer (MERN) 
-  <br/> Artificial Intelligence Enthusiast!! I Love the impact of AI 
-   <br /> Love building websites from scratch 
-    <br /> Started blogging recently
-    <br /> Love the feeling when my PR is merged as an Open Source Contributor
+    My name is <em>Lee Ren Jie</em>. I am currentlylearning to be a Fullstack Web Development
+    <br/> I am the founder of <a href="https://discord.gg/z64CeyNscX" >Coden</a> Tech Community
+    <br/> Artificial Intelligence Enthusiast!! I Love the impact of AI 
+    <br/> Love building websites from scratch 
+    <br/> Writing articles for students on Hahsnode!
+    <br/> Love the feeling when my PR is merged as an Open Source Contributor
     <br/> Fulltime Diploma Student at Asia Pacific University specialized in Software Engineering...
-      <br/>
-Love sports, music, and a hot cup of tea 🍵
-          <br/>
-Continuously self learning, wanting to impact the community and hopefully the world
+    <br/> Love sports, music, and a hot cup of tea 🍵
+    <br/> Continuously self learning, wanting to impact the community and hopefully the world
   </samp>
 </p><br/>
 
