@@ -5,7 +5,7 @@
     <br/> I am the founder of <a href="https://discord.gg/z64CeyNscX" >Coden</a> Tech Community
     <br/> Artificial Intelligence Enthusiast!! I Love the impact of AI 
     <br/> Love building websites from scratch 
-    <br/> Writing articles for students on Hahsnode!
+    <br/> Writing articles on Hahsnode!
     <br/> Love the feeling when my PR is merged as an Open Source Contributor
     <br/> Fulltime Diploma Student at Asia Pacific University specialized in Software Engineering...
     <br/> Love sports, music, and a hot cup of tea 🍵
