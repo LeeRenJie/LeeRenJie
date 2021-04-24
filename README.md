@@ -1,7 +1,7 @@
 <img src="https://github.com/LeeRenJie/LeeRenJie/blob/main/images/Banner.png" width="100%">
 <p align="center" >
   <samp>
-    My name is <em>Lee Ren Jie</em>. I am currentlylearning to be a Fullstack Web Development
+    My name is <em>Lee Ren Jie</em>. I am currently learning to be a Fullstack Web Development
     <br/> I am the founder of <a href="https://discord.gg/z64CeyNscX" >Coden</a> Tech Community
     <br/> Artificial Intelligence Enthusiast!! I Love the impact of AI 
     <br/> Love building websites from scratch 
