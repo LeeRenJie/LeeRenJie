@@ -45,6 +45,7 @@
 <p>
 <img src="https://img.shields.io/badge/-PostMan%20-grey?style=for-the-badge&logo=postman">
 <img src="https://img.shields.io/badge/-Ruby%20-white?style=for-the-badge&logo=ruby&logoColor=red">
+<img src="https://img.shields.io/badge/-Rails%20-white?style=for-the-badge&logo=rails">
 <img src="https://img.shields.io/badge/-Vue%20-%2320232a?style=for-the-badge&logo=vue.js">
 <img src="https://img.shields.io/badge/-Angular%20-black?style=for-the-badge&logo=angular">
 <img src="https://img.shields.io/badge/-Figma%20-purple?style=for-the-badge&logo=figma">
