@@ -65,11 +65,11 @@
 ## Recent Articles📖
 
 <!-- BLOG-POST-LIST:START -->
+- [Git for beginners](https://leerenjie.hashnode.dev/git-for-beginners)
 - [GitHub for Beginners. What is it & How to use it?](https://leerenjie.hashnode.dev/github-for-beginners)
 - [Day 6: Growing with Open Source](https://leerenjie.hashnode.dev/growing-with-open-source)
 - [Top 5 Reasons Why I Blog](https://leerenjie.hashnode.dev/top-5-reasons-why-i-blog)
 - [Day 5: Building an Effective Developer Portfolio](https://leerenjie.hashnode.dev/building-an-effective-developer-portfolio)
-- [Day 4: Several Revenue Models for Software Engineers](https://leerenjie.hashnode.dev/several-revenue-models-for-software-engineers)
 <!-- BLOG-POST-LIST:END -->
 
 ▶ [...more blog articles](https://leerenjie.hashnode.dev/)
