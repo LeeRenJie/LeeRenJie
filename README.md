@@ -2,7 +2,6 @@
 <p align="center" >
   <samp>
     My name is <em>Lee Ren Jie</em>. I am currently learning Fullstack Web Development
-    <br/> I am the founder of <a href="https://discord.gg/z64CeyNscX" >Coden</a> Tech Community
     <br/> Artificial Intelligence Enthusiast!! I Love the impact of AI 
     <br/> Love building websites from scratch 
     <br/> Writing articles on Hahsnode and freeCodeCamp!
