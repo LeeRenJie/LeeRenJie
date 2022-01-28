@@ -4,7 +4,7 @@
     My name is <em>Lee Ren Jie</em>. I am currently learning Fullstack Web Development
     <br/> Artificial Intelligence Enthusiast!! I Love the impact of AI 
     <br/> Love building websites from scratch 
-    <br/> Writing articles on Hahsnode and freeCodeCamp!
+    <br/> Writing articles on Hashnode and freeCodeCamp!
     <br/> Love the feeling when my PR is merged as an Open Source Contributor
     <br/> Full-time Diploma Student at Asia Pacific University specialized in Software Engineering...
     <br/> Love sports, music, and a hot cup of tea 🍵
