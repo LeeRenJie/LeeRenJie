@@ -40,6 +40,8 @@
 <img src="https://img.shields.io/badge/-MailChimp%20-%23323330?style=for-the-badge&logo=mailchimp">
 <img src="https://img.shields.io/badge/-Ruby On Rails%20-white?style=for-the-badge&logo=ruby&logoColor=red">
 <img src="https://img.shields.io/badge/-Figma%20-purple?style=for-the-badge&logo=figma">
+  <img src="https://img.shields.io/badge/-SQL%20-grey?style=for-the-badge&logo=SQL">
+  <img src="https://img.shields.io/badge/-SQL%20-grey?style=for-the-badge&logo=PHP">
   </p>
   
 ## Technologies in progress 📚
@@ -55,7 +57,6 @@
 <img src="https://img.shields.io/badge/-Threejs%20-grey?style=for-the-badge&logo=three.js">
 <img src="https://img.shields.io/badge/-Typescript%20-white?style=for-the-badge&logo=typescript">
 <img src="https://img.shields.io/badge/-Tailwind%20-black?style=for-the-badge&logo=tailwind-css">
-<img src="https://img.shields.io/badge/-SQL%20-grey?style=for-the-badge&logo=SQL">
 <img src="https://img.shields.io/badge/-MySQL%20-white?style=for-the-badge&logo=mysql&logoColor=black">
 <img src="https://img.shields.io/badge/-Babylonjs%20-grey?style=for-the-badge&logo=Babylon-js">
 </p>
