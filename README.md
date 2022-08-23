@@ -1,4 +1,4 @@
-<img src="https://github.com/LeeRenJie/LeeRenJie/blob/main/images/Banner.png" width="100%">
+<img src="https://github.com/LeeRenJie/LeeRenJie/blob/main/images/banner.png" width="100%">
 <p align="center" >
   <samp>
     My name is <em>Lee Ren Jie</em>. I am currently learning Fullstack Web Development
