@@ -42,23 +42,15 @@
 <img src="https://img.shields.io/badge/-SQL%20-grey?style=for-the-badge&logo=SQL">
 <img src="https://img.shields.io/badge/-PHP%20-grey?style=for-the-badge&logo=PHP">
 <img src="https://img.shields.io/badge/-Wordpress%20-blue?style=for-the-badge&logo=Wordpress">
+<img src="https://img.shields.io/badge/-SASS%20-pink?style=for-the-badge&logo=sass">
 </p>
   
-## Technologies in progress 📚
+## In progress 📚
 <p>
 <img src="https://img.shields.io/badge/-PostMan%20-grey?style=for-the-badge&logo=postman">
 <img src="https://img.shields.io/badge/-Vue%20-%2320232a?style=for-the-badge&logo=vue.js">
-<img src="https://img.shields.io/badge/-Angular%20-black?style=for-the-badge&logo=angular">
-<img src="https://img.shields.io/badge/-SASS%20-pink?style=for-the-badge&logo=sass">
 <img src="https://img.shields.io/badge/-firebase%20-black?style=for-the-badge&logo=firebase">
-<img src="https://img.shields.io/badge/-Nextjs%20-grey?style=for-the-badge&logo=next.js">
-<img src="https://img.shields.io/badge/-Redux%20-white?style=for-the-badge&logo=redux&logoColor=purple">
-<img src="https://img.shields.io/badge/-gatsby%20-white?style=for-the-badge&logo=gatsby&logoColor=purple">
-<img src="https://img.shields.io/badge/-Threejs%20-grey?style=for-the-badge&logo=three.js">
 <img src="https://img.shields.io/badge/-Typescript%20-white?style=for-the-badge&logo=typescript">
-<img src="https://img.shields.io/badge/-Tailwind%20-black?style=for-the-badge&logo=tailwind-css">
-<img src="https://img.shields.io/badge/-MySQL%20-white?style=for-the-badge&logo=mysql&logoColor=black">
-<img src="https://img.shields.io/badge/-Babylonjs%20-grey?style=for-the-badge&logo=Babylon-js">
 </p>
 
 ## Recent Articles📖
