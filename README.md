@@ -1,7 +1,7 @@
 <img src="https://github.com/LeeRenJie/LeeRenJie/blob/main/images/banner.png" width="100%">
 <p align="center" >
   <samp>
-    My name is <em>Lee Ren Jie</em>. I am aspiring to be a Web Developer
+    My name is <em>Lee Ren Jie</em>. I am aspiring to be a Web Developer!
     <br/> Blockchain & web3 enthusiast!!  
     <br/> Love building websites from scratch 
     <br/> I Write articles on Hashnode and freeCodeCamp
