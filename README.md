@@ -1,14 +1,13 @@
 <img src="https://github.com/LeeRenJie/LeeRenJie/blob/main/images/banner.png" width="100%">
 <p align="center" >
   <samp>
-    My name is <em>Lee Ren Jie</em>. I am currently learning Fullstack Web Development
-    <br/> Artificial Intelligence Enthusiast!! I Love the impact of AI 
+    My name is <em>Lee Ren Jie</em>. I am aspiring to be a Web Developer
+    <br/> Blockchain & web3 enthusiast!!  
     <br/> Love building websites from scratch 
-    <br/> Writing articles on Hashnode and freeCodeCamp!
-    <br/> Love the feeling when my PR is merged as an Open Source Contributor
-    <br/> Full-time Diploma Student at Asia Pacific University specialized in Software Engineering...
-    <br/> Love sports, music, and a hot cup of tea 🍵
-    <br/> Continuously self learning, wanting to impact the community and hopefully the world
+    <br/> I Write articles on Hashnode and freeCodeCamp
+    <br/> Computer Science Student at Asia Pacific University...
+    <br/> Love sports, music, and sushi 🍣
+    <br/> Continuously self learning, hope to make a change
   </samp>
 </p><br/>
 
