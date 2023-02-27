@@ -43,6 +43,9 @@
 <img src="https://img.shields.io/badge/-PHP%20-grey?style=for-the-badge&logo=PHP">
 <img src="https://img.shields.io/badge/-Wordpress%20-blue?style=for-the-badge&logo=Wordpress">
 <img src="https://img.shields.io/badge/-SASS%20-pink?style=for-the-badge&logo=sass">
+<img src="https://img.shields.io/badge/-Java%20-grey?style=for-the-badge&logo=java">
+<img src="https://img.shields.io/badge/-c++%20-grey?style=for-the-badge&logo=C++">
+<img src="https://img.shields.io/badge/-R%20-blue?style=for-the-badge&logo=R">
 </p>
   
 ## In progress 📚
