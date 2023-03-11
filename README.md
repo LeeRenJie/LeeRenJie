@@ -37,8 +37,8 @@
 <img src="https://img.shields.io/badge/-JQuery%20-blue?style=for-the-badge&logo=jquery&logoColor=white" >
 <img src="https://img.shields.io/badge/-JSON%20-02569B?style=for-the-badge&logo=json&logoColor=white">
 <img src="https://img.shields.io/badge/-MailChimp%20-%23323330?style=for-the-badge&logo=mailchimp">
-<img src="https://img.shields.io/badge/-Ruby On Rails%20-white?style=for-the-badge&logo=ruby&logoColor=red">
 <img src="https://img.shields.io/badge/-Figma%20-purple?style=for-the-badge&logo=figma">
+<img src="https://img.shields.io/badge/-Ruby On Rails%20-white?style=for-the-badge&logo=ruby&logoColor=red">
 <img src="https://img.shields.io/badge/-SQL%20-grey?style=for-the-badge&logo=SQL">
 <img src="https://img.shields.io/badge/-PHP%20-grey?style=for-the-badge&logo=PHP">
 <img src="https://img.shields.io/badge/-Wordpress%20-blue?style=for-the-badge&logo=Wordpress">
