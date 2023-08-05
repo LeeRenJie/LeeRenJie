@@ -45,6 +45,7 @@
 <img src="https://img.shields.io/badge/-Java%20-grey?style=for-the-badge&logo=java">
 <img src="https://img.shields.io/badge/-c++%20-grey?style=for-the-badge&logo=C++">
 <img src="https://img.shields.io/badge/-R%20-blue?style=for-the-badge&logo=R">
+<img src="https://img.shields.io/badge/-Typescript%20-white?style=for-the-badge&logo=typescript">
 </p>
   
 ## In progress 📚
@@ -52,7 +53,6 @@
 <img src="https://img.shields.io/badge/-PostMan%20-grey?style=for-the-badge&logo=postman">
 <img src="https://img.shields.io/badge/-Vue%20-%2320232a?style=for-the-badge&logo=vue.js">
 <img src="https://img.shields.io/badge/-firebase%20-black?style=for-the-badge&logo=firebase">
-<img src="https://img.shields.io/badge/-Typescript%20-white?style=for-the-badge&logo=typescript">
 </p>
 
 ## Recent Articles📖
