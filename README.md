@@ -2,12 +2,11 @@
 <p align="center" >
   <samp>
     My name is <em>Lee Ren Jie</em>. I am aspiring to be a Software Engineer!
-    <br/> Blockchain & web3 enthusiast!!  
-    <br/> Love building websites from scratch 
+    <br/> Excited building websites/apps from scratch 
     <br/> I Write articles on Hashnode and freeCodeCamp
     <br/> Computer Science Student at Asia Pacific University...
     <br/> Love sports, music, and sushi 🍣
-    <br/> Continuously self learning, hope to make a change
+    <br/> Continuously self-learning, hope to make a change
   </samp>
 </p><br/>
 
