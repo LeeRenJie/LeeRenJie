@@ -18,25 +18,25 @@
 
 ## Reach Out To Me 📫  
 <a href="mailto:work.renjie@gmail.com"> 
-  <img src="https://img.shields.io/badge/Gmail%20-%2312100E.svg?&style=for-the-badge&logo=gmail&logoColor=white" >
+  <img src="https://img.shields.io/badge/Gmail%20-%2312100E.svg?&style=for-the-badge&logo=gmail">
 </a> 
 <a href="https://www.linkedin.com/in/leerenjie/">
-  <img src="https://img.shields.io/badge/LinkedIn%20-%2312100E.svg?&style=for-the-badge&logo=linkedin&logoColor=white" >
+  <img src="https://img.shields.io/badge/LinkedIn%20-%2312100E.svg?&style=for-the-badge&logo=linkedin">
 </a>   
-<a  href="https://stackoverflow.com/users/story/14742922">
+<a href="https://stackoverflow.com/users/story/14742922">
   <img src="https://img.shields.io/badge/Stack Overflow%20-%2312100E.svg?&style=for-the-badge&logo=stackoverflow">
 </a> 
-<a  href="https://twitter.com/TechWithRJ2">
-  <img src="https://img.shields.io/badge/Twitter%20-%2312100E.svg?&style=for-the-badge&logo=twitter&logoColor=blue">
+<a href="https://twitter.com/TechWithRJ2">
+  <img src="https://img.shields.io/badge/Twitter%20-%2312100E.svg?&style=for-the-badge&logo=twitter">
 </a> 
-<a  href="https://leerenjie.hashnode.dev/">
+<a href="https://leerenjie.hashnode.dev/">
   <img src="https://img.shields.io/badge/Hashnode%20-%2312100E.svg?&style=for-the-badge&logo=hashnode&logoColor=blue">
 </a> 
-<a  href="https://tech-with-rj.medium.com/">
-  <img src="https://img.shields.io/badge/Medium%20-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white">
+<a href="https://tech-with-rj.medium.com/">
+  <img src="https://img.shields.io/badge/Medium%20-%2312100E.svg?&style=for-the-badge&logo=medium">
 </a> 
-<a  href="https://dev.to/leerenjie">
-  <img src="https://img.shields.io/badge/DEV Community%20-%2312100E.svg?&style=for-the-badge&logo=dev.community&logoColor=white">
+<a href="https://dev.to/leerenjie">
+  <img src="https://img.shields.io/badge/DEV Community%20-%2312100E.svg?&style=for-the-badge&logo=dev.community">
 </a>
 <br>
 
