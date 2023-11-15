@@ -76,18 +76,12 @@
 <img src="https://img.shields.io/badge/-firebase%20-%2312100E.svg?style=for-the-badge&logo=firebase">
 </p>
 
-## Recent Articles📖
-### On Hashnode: 
-<!-- HASHNODE-BLOG-POST-LIST:START -->
-<!-- HASHNODE-BLOG-POST-LIST:END -->
+## Recent Articles on Hashnode and FreeCodeCamp📖
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
-▶ [...more blog articles](https://leerenjie.hashnode.dev/)
-
-### On FreeCodeCamp:
-<!-- FREECODECAMP-BLOG-POST-LIST:START -->
-<!-- FREECODECAMP-BLOG-POST-LIST:END -->
-
-▶ [...more blog articles](https://www.freecodecamp.org/news/author/lrj/))
+▶ [Hashnode](https://leerenjie.hashnode.dev/)
+▶ [FreeCodeCamp](https://www.freecodecamp.org/news/author/lrj/))
 
 <hr/>
 
