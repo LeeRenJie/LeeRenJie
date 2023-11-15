@@ -1,0 +1,26 @@
+name: Update Blog
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # Run every hour
+
+jobs:
+  update-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Fetch Latest Articles
+        run: |
+          feed_url="https://www.freecodecamp.org/news/author/lrj/rss/"
+          articles=$(curl -s $feed_url | grep -Eo '<item>.*?</item>' | sed -e 's/<[^>]*>//g')
+          echo -e "# Latest Articles\n$articles" > latest_articles.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add latest_articles.md
+          git commit -m "Update latest articles" || true
+          git push
