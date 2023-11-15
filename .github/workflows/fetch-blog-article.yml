@@ -12,26 +12,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      # Fetch latest Hashnode blog posts
-      - name: Fetch Hashnode Articles
-        run: |
-          hashnode_articles=$(curl -s https://leerenjie.hashnode.dev/rss.xml | grep -Eo '<item>.*?</item>' | sed -e 's/<[^>]*>//g')
-
-      # Fetch latest FreeCodeCamp blog posts
-      - name: Fetch FreeCodeCamp Articles
-        run: |
-          freecodecamp_articles=$(curl -s https://www.freecodecamp.org/news/author/lrj/rss/ | grep -Eo '<item>.*?</item>' | sed -e 's/<[^>]*>//g')
-
-      # Update README with the fetched articles
-      - name: Update README with Hashnode Articles
-        run: |
-          sed -i '/<!-- HASHNODE-BLOG-POST-LIST:START -->/,<!-- HASHNODE-BLOG-POST-LIST:END -->/c\
-          <!-- HASHNODE-BLOG-POST-LIST:START -->\n'"$hashnode_articles"'\n<!-- HASHNODE-BLOG-POST-LIST:END -->' README.md
-
-      - name: Update README with FreeCodeCamp Articles
-        run: |
-          sed -i '/<!-- FREECODECAMP-BLOG-POST-LIST:START -->/,<!-- FREECODECAMP-BLOG-POST-LIST:END -->/c\
-          <!-- FREECODECAMP-BLOG-POST-LIST:START -->\n'"$freecodecamp_articles"'\n<!-- FREECODECAMP-BLOG-POST-LIST:END -->' README.md
+      # Fetch latest Hashnode and FreeCodeCamp blog posts
+      - name: Fetch Blog Posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://leerenjie.hashnode.dev/rss.xml,https://www.freecodecamp.org/news/author/lrj/rss/"
 
       # Commit and push changes
       - name: Commit and Push Changes
