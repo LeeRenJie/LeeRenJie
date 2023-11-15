@@ -40,7 +40,7 @@
 <a href="https://dev.to/leerenjie">
   <img src="https://img.shields.io/badge/DEV Community%20-%2312100E.svg?&style=for-the-badge&logo=dev.community">
 </a>
-<a href="[https://dev.to/leerenjie](https://www.freecodecamp.org/news/author/lrj/)">
+<a href="https://www.freecodecamp.org/news/author/lrj/">
   <img src="https://img.shields.io/badge/freecodecamp%20-%2312100E.svg?&style=for-the-badge&logo=freecodecamp">
 </a>
 
