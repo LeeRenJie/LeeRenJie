@@ -61,17 +61,17 @@
 <img src="https://img.shields.io/badge/-PHP%20-%2312100E.svg?style=for-the-badge&logo=PHP&logoColor=777BB4">
 <img src="https://img.shields.io/badge/-Wordpress%20-%2312100E.svg?style=for-the-badge&logo=Wordpress&logoColor=21759B">
 <img src="https://img.shields.io/badge/-SASS%20-%2312100E.svg?style=for-the-badge&logo=sass&logoColor=CC6699">
-<img src="https://img.shields.io/badge/-Java%20-%2312100E.svg?style=for-the-badge&logo=java&logoColor=007396">
-<img src="https://img.shields.io/badge/-c++%20-%2312100E.svg?style=for-the-badge&logo=C++&logoColor=00599C">
 <img src="https://img.shields.io/badge/-R%20-%2312100E.svg?style=for-the-badge&logo=R&logoColor=276DC3">
 <img src="https://img.shields.io/badge/-Typescript%20-%2312100E.svg?style=for-the-badge&logo=typescript&logoColor=007ACC">
 <img src="https://img.shields.io/badge/-Pug%20-%2312100E.svg?style=for-the-badge&logo=pug&logoColor=A86454">
+<img src="https://img.shields.io/badge/-PostMan%20-%2312100E.svg?style=for-the-badge&logo=postman">
 
 </p>
   
 ## In progress 📚
 <p>
-<img src="https://img.shields.io/badge/-PostMan%20-%2312100E.svg?style=for-the-badge&logo=postman">
+<img src="https://img.shields.io/badge/-Java%20-%2312100E.svg?style=for-the-badge&logo=java&logoColor=007396">
+<img src="https://img.shields.io/badge/-c++%20-%2312100E.svg?style=for-the-badge&logo=C++&logoColor=00599C">
 <img src="https://img.shields.io/badge/-Vue%20-%2312100E.svg?style=for-the-badge&logo=vue.js">
 <img src="https://img.shields.io/badge/-firebase%20-%2312100E.svg?style=for-the-badge&logo=firebase">
 </p>
