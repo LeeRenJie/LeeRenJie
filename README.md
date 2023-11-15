@@ -16,31 +16,31 @@
   <img src="https://profile-counter.glitch.me/LeeRenJie/count.svg" />
 
 ## Reach Out To Me 📫  
-<a href="mailto:work.renjie@gmail.com"> 
+<a href="mailto:work.renjie@gmail.com" target="_blank"> 
   <img src="https://img.shields.io/badge/Gmail%20-%2312100E.svg?&style=for-the-badge&logo=gmail">
 </a> 
-<a href="https://www.linkedin.com/in/leerenjie/">
+<a href="https://www.linkedin.com/in/leerenjie/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn%20-%2312100E.svg?&style=for-the-badge&logo=linkedin">
 </a>   
-<a href="https://stackoverflow.com/users/story/14742922">
+<a href="https://stackoverflow.com/users/story/14742922" target="_blank">
   <img src="https://img.shields.io/badge/Stack Overflow%20-%2312100E.svg?&style=for-the-badge&logo=stackoverflow">
 </a> 
-<a href="https://twitter.com/TechWithRJ2">
+<a href="https://twitter.com/TechWithRJ2" target="_blank">
   <img src="https://img.shields.io/badge/Twitter%20-%2312100E.svg?&style=for-the-badge&logo=twitter">
 </a> 
 <br>
 
 ## Blogs 📑
-<a href="https://leerenjie.hashnode.dev/">
+<a href="https://leerenjie.hashnode.dev/" target="_blank">
   <img src="https://img.shields.io/badge/Hashnode%20-%2312100E.svg?&style=for-the-badge&logo=hashnode&logoColor=blue">
 </a> 
-<a href="https://tech-with-rj.medium.com/">
+<a href="https://tech-with-rj.medium.com/" target="_blank">
   <img src="https://img.shields.io/badge/Medium%20-%2312100E.svg?&style=for-the-badge&logo=medium">
 </a> 
-<a href="https://dev.to/leerenjie">
+<a href="https://dev.to/leerenjie" target="_blank">
   <img src="https://img.shields.io/badge/DEV Community%20-%2312100E.svg?&style=for-the-badge&logo=dev.community">
 </a>
-<a href="https://www.freecodecamp.org/news/author/lrj/">
+<a href="https://www.freecodecamp.org/news/author/lrj/" target="_blank">
   <img src="https://img.shields.io/badge/freecodecamp%20-%2312100E.svg?&style=for-the-badge&logo=freecodecamp">
 </a>
 
