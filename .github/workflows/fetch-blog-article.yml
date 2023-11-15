@@ -23,10 +23,15 @@ jobs:
           freecodecamp_articles=$(curl -s https://www.freecodecamp.org/news/author/lrj/rss/ | grep -Eo '<item>.*?</item>' | sed -e 's/<[^>]*>//g')
 
       # Update README with the fetched articles
-      - name: Update README
+      - name: Update README with Hashnode Articles
         run: |
-          sed -i '/<!-- HASHNODE-BLOG-POST-LIST:START -->/,<!-- HASHNODE-BLOG-POST-LIST:END -->/c\<!-- HASHNODE-BLOG-POST-LIST:START -->\n'"$hashnode_articles"'\n<!-- HASHNODE-BLOG-POST-LIST:END -->' README.md
-          sed -i '/<!-- FREECODECAMP-BLOG-POST-LIST:START -->/,<!-- FREECODECAMP-BLOG-POST-LIST:END -->/c\<!-- FREECODECAMP-BLOG-POST-LIST:START -->\n'"$freecodecamp_articles"'\n<!-- FREECODECAMP-BLOG-POST-LIST:END -->' README.md
+          sed -i '/<!-- HASHNODE-BLOG-POST-LIST:START -->/,<!-- HASHNODE-BLOG-POST-LIST:END -->/c\
+          <!-- HASHNODE-BLOG-POST-LIST:START -->\n'"$hashnode_articles"'\n<!-- HASHNODE-BLOG-POST-LIST:END -->' README.md
+
+      - name: Update README with FreeCodeCamp Articles
+        run: |
+          sed -i '/<!-- FREECODECAMP-BLOG-POST-LIST:START -->/,<!-- FREECODECAMP-BLOG-POST-LIST:END -->/c\
+          <!-- FREECODECAMP-BLOG-POST-LIST:START -->\n'"$freecodecamp_articles"'\n<!-- FREECODECAMP-BLOG-POST-LIST:END -->' README.md
 
       # Commit and push changes
       - name: Commit and Push Changes
