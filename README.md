@@ -77,16 +77,17 @@
 </p>
 
 ## Recent Articles📖
-
-<!-- BLOG-POST-LIST:START -->
-- [Git for beginners](https://leerenjie.hashnode.dev/git-for-beginners)
-- [GitHub for Beginners. What is it &amp; How to use it?](https://leerenjie.hashnode.dev/github-for-beginners)
-- [Day 6: Growing with Open Source](https://leerenjie.hashnode.dev/growing-with-open-source)
-- [Top 5 Reasons Why I Blog](https://leerenjie.hashnode.dev/top-5-reasons-why-i-blog)
-- [Day 5: Building an Effective Developer Portfolio](https://leerenjie.hashnode.dev/building-an-effective-developer-portfolio)
-<!-- BLOG-POST-LIST:END -->
+### On Hashnode: 
+<!-- HASHNODE-BLOG-POST-LIST:START -->
+<!-- HASHNODE-BLOG-POST-LIST:END -->
 
 ▶ [...more blog articles](https://leerenjie.hashnode.dev/)
+
+### On FreeCodeCamp:
+<!-- FREECODECAMP-BLOG-POST-LIST:START -->
+<!-- FREECODECAMP-BLOG-POST-LIST:END -->
+
+▶ [...more blog articles](https://www.freecodecamp.org/news/author/lrj/))
 
 <hr/>
 
