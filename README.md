@@ -28,6 +28,9 @@
 <a href="https://twitter.com/TechWithRJ2">
   <img src="https://img.shields.io/badge/Twitter%20-%2312100E.svg?&style=for-the-badge&logo=twitter">
 </a> 
+<br>
+
+## Blogs 📑
 <a href="https://leerenjie.hashnode.dev/">
   <img src="https://img.shields.io/badge/Hashnode%20-%2312100E.svg?&style=for-the-badge&logo=hashnode&logoColor=blue">
 </a> 
@@ -37,35 +40,36 @@
 <a href="https://dev.to/leerenjie">
   <img src="https://img.shields.io/badge/DEV Community%20-%2312100E.svg?&style=for-the-badge&logo=dev.community">
 </a>
-<br>
+<a href="[https://dev.to/leerenjie](https://www.freecodecamp.org/news/author/lrj/)">
+  <img src="https://img.shields.io/badge/freecodecamp%20-%2312100E.svg?&style=for-the-badge&logo=freecodecamp">
+</a>
 
 ## Tools in my pocket🛠
 <p float="left">
-<img src="https://img.shields.io/badge/html5%20-%2312100E.svg?&style=for-the-badge&logo=html5&logoColor=E34F26" >
-<img src="https://img.shields.io/badge/css3%20-%2312100E.svg?&style=for-the-badge&logo=css3&logoColor=1572B6" >
-<img src="https://img.shields.io/badge/javascript%20-%2312100E.svg?&style=for-the-badge&logo=javascript&logoColor=F7DF1E" >
-<img src="https://img.shields.io/badge/-MongoDB%20-%2312100E.svg?style=for-the-badge&logo=mongodb&logoColor=1AA121">
-<img src="https://img.shields.io/badge/-Expressjs%20-%2312100E.svg?style=for-the-badge&logo=express">
-<img src="https://img.shields.io/badge/react%20-%2312100E.svg?&style=for-the-badge&logo=react" >
-<img src="https://img.shields.io/badge/-Nodejs%20-%2312100E.svg?style=for-the-badge&logo=Node.js&logoColor=3C873A">
-<img src="https://img.shields.io/badge/-python%20-%2312100E.svg?&style=for-the-badge&logo=python&logoColor=3776AB" >
-<img src="https://img.shields.io/badge/bootstrap%20-%2312100E.svg?&style=for-the-badge&logo=bootstrap&logoColor=563D7C" >
-<img src="https://img.shields.io/badge/git%20-%2312100E.svg?&style=for-the-badge&logo=git&logoColor=F05033" >
-<img src="https://img.shields.io/badge/-VS%20Code-%2312100E.svg?style=for-the-badge&logo=Visual-studio-code&logoColor=007ACC" >
-<img src="https://img.shields.io/badge/-JQuery%20-%2312100E.svg?style=for-the-badge&logo=jquery&logoColor=0769AD" >
-<img src="https://img.shields.io/badge/-JSON%20-%2312100E.svg?style=for-the-badge&logo=json&logoColor=02569B">
-<img src="https://img.shields.io/badge/-MailChimp%20-%2312100E.svg?style=for-the-badge&logo=mailchimp&logoColor=FFE01B">
-<img src="https://img.shields.io/badge/-Figma%20-%2312100E.svg?style=for-the-badge&logo=figma&logoColor=F24E1E">
-<img src="https://img.shields.io/badge/-Ruby On Rails%20-%2312100E.svg?style=for-the-badge&logo=ruby&logoColor=CC0000">
-<img src="https://img.shields.io/badge/-SQL%20-%2312100E.svg?style=for-the-badge&logo=SQL&logoColor=003B57">
-<img src="https://img.shields.io/badge/-PHP%20-%2312100E.svg?style=for-the-badge&logo=PHP&logoColor=777BB4">
-<img src="https://img.shields.io/badge/-Wordpress%20-%2312100E.svg?style=for-the-badge&logo=Wordpress&logoColor=21759B">
-<img src="https://img.shields.io/badge/-SASS%20-%2312100E.svg?style=for-the-badge&logo=sass&logoColor=CC6699">
-<img src="https://img.shields.io/badge/-R%20-%2312100E.svg?style=for-the-badge&logo=R&logoColor=276DC3">
-<img src="https://img.shields.io/badge/-Typescript%20-%2312100E.svg?style=for-the-badge&logo=typescript&logoColor=007ACC">
-<img src="https://img.shields.io/badge/-Pug%20-%2312100E.svg?style=for-the-badge&logo=pug&logoColor=A86454">
-<img src="https://img.shields.io/badge/-PostMan%20-%2312100E.svg?style=for-the-badge&logo=postman">
-
+  <img src="https://img.shields.io/badge/html5%20-%2312100E.svg?&style=for-the-badge&logo=html5&logoColor=E34F26" >
+  <img src="https://img.shields.io/badge/css3%20-%2312100E.svg?&style=for-the-badge&logo=css3&logoColor=1572B6" >
+  <img src="https://img.shields.io/badge/javascript%20-%2312100E.svg?&style=for-the-badge&logo=javascript&logoColor=F7DF1E" >
+  <img src="https://img.shields.io/badge/-MongoDB%20-%2312100E.svg?style=for-the-badge&logo=mongodb&logoColor=1AA121">
+  <img src="https://img.shields.io/badge/-Expressjs%20-%2312100E.svg?style=for-the-badge&logo=express">
+  <img src="https://img.shields.io/badge/react%20-%2312100E.svg?&style=for-the-badge&logo=react" >
+  <img src="https://img.shields.io/badge/-Nodejs%20-%2312100E.svg?style=for-the-badge&logo=Node.js&logoColor=3C873A">
+  <img src="https://img.shields.io/badge/-python%20-%2312100E.svg?&style=for-the-badge&logo=python&logoColor=3776AB" >
+  <img src="https://img.shields.io/badge/bootstrap%20-%2312100E.svg?&style=for-the-badge&logo=bootstrap&logoColor=563D7C" >
+  <img src="https://img.shields.io/badge/git%20-%2312100E.svg?&style=for-the-badge&logo=git&logoColor=F05033" >
+  <img src="https://img.shields.io/badge/-VS%20Code-%2312100E.svg?style=for-the-badge&logo=Visual-studio-code&logoColor=007ACC" >
+  <img src="https://img.shields.io/badge/-JQuery%20-%2312100E.svg?style=for-the-badge&logo=jquery&logoColor=0769AD" >
+  <img src="https://img.shields.io/badge/-JSON%20-%2312100E.svg?style=for-the-badge&logo=json&logoColor=02569B">
+  <img src="https://img.shields.io/badge/-MailChimp%20-%2312100E.svg?style=for-the-badge&logo=mailchimp&logoColor=FFE01B">
+  <img src="https://img.shields.io/badge/-Figma%20-%2312100E.svg?style=for-the-badge&logo=figma&logoColor=F24E1E">
+  <img src="https://img.shields.io/badge/-Ruby On Rails%20-%2312100E.svg?style=for-the-badge&logo=ruby&logoColor=CC0000">
+  <img src="https://img.shields.io/badge/-SQL%20-%2312100E.svg?style=for-the-badge&logo=SQL&logoColor=003B57">
+  <img src="https://img.shields.io/badge/-PHP%20-%2312100E.svg?style=for-the-badge&logo=PHP&logoColor=777BB4">
+  <img src="https://img.shields.io/badge/-Wordpress%20-%2312100E.svg?style=for-the-badge&logo=Wordpress&logoColor=21759B">
+  <img src="https://img.shields.io/badge/-SASS%20-%2312100E.svg?style=for-the-badge&logo=sass&logoColor=CC6699">
+  <img src="https://img.shields.io/badge/-R%20-%2312100E.svg?style=for-the-badge&logo=R&logoColor=276DC3">
+  <img src="https://img.shields.io/badge/-Typescript%20-%2312100E.svg?style=for-the-badge&logo=typescript&logoColor=007ACC">
+  <img src="https://img.shields.io/badge/-Pug%20-%2312100E.svg?style=for-the-badge&logo=pug&logoColor=A86454">
+  <img src="https://img.shields.io/badge/-PostMan%20-%2312100E.svg?style=for-the-badge&logo=postman">
 </p>
   
 ## In progress 📚
@@ -76,12 +80,9 @@
 <img src="https://img.shields.io/badge/-firebase%20-%2312100E.svg?style=for-the-badge&logo=firebase">
 </p>
 
-## Recent Articles on Hashnode and FreeCodeCamp📖
+## Recent Articles📖
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
-
-▶ [Hashnode](https://leerenjie.hashnode.dev/)
-▶ [FreeCodeCamp](https://www.freecodecamp.org/news/author/lrj/))
 
 <hr/>
 
