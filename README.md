@@ -92,8 +92,9 @@
 <hr/>
 
 ## GitHub Summary 📈  
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=47% align=left>
-<img src="https://github-readme-stats.vercel.app/api?username=LeeRenJie&show_icons=true&theme=dracula" align=right width=47% >  
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=47% align=left height="200px" >
+<img src="https://awesome-github-stats.azurewebsites.net/user-stats/leerenjie?theme=dark&cardType=github&ring=D4AF37&show_icons=true&preferLogin=true&title=D4AF37" width=47% alt="GitHub Stats" align=right height="200px" >
+
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/></br>
 ## Projects In Progress ⚙    
@@ -120,3 +121,5 @@
   <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Learn-Ruby&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%"/>
 </a> -->
 </p>
+
+
