@@ -2,7 +2,7 @@
 <p align="center" >
   <samp>
     My name is <em>Lee Ren Jie</em>. I mainly do front-end!
-    <br/> I am currently working on my own web dev agency <a href="https://www.instagram.com/codexstudio.co/" target="_blank">CodexStudio</a>
+<!--     <br/> I am currently working on my own web dev agency <a href="https://www.instagram.com/codexstudio.co/" target="_blank">CodexStudio</a> -->
     <br/> Excited building websites/apps from scratch 
     <br/> I Write articles on Hashnode and freeCodeCamp
     <br/> Computer Science Student at Asia Pacific University...
