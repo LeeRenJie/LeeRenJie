@@ -26,9 +26,6 @@
 <a href="https://stackoverflow.com/users/story/14742922" target="_blank">
   <img src="https://img.shields.io/badge/Stack Overflow%20-%2312100E.svg?&style=for-the-badge&logo=stackoverflow">
 </a> 
-<a href="https://twitter.com/TechWithRJ2" target="_blank">
-  <img src="https://img.shields.io/badge/Twitter%20-%2312100E.svg?&style=for-the-badge&logo=twitter">
-</a> 
 <br>
 
 ## Blogs 📑
