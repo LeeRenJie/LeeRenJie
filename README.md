@@ -80,11 +80,11 @@
 
 ## Recent Articles📖
 <!-- BLOG-POST-LIST:START -->
-- [How to Excel as a New Developer and Beat the Dunning-Kruger Trap](https://www.freecodecamp.org/news/the-dunning-kruger-effect/)
 - [Git for beginners](https://leerenjie.hashnode.dev/git-for-beginners)
 - [GitHub for Beginners. What is it &amp; How to use it?](https://leerenjie.hashnode.dev/github-for-beginners)
 - [Day 6: Growing with Open Source](https://leerenjie.hashnode.dev/growing-with-open-source)
 - [Top 5 Reasons Why I Blog](https://leerenjie.hashnode.dev/top-5-reasons-why-i-blog)
+- [Day 5: Building an Effective Developer Portfolio](https://leerenjie.hashnode.dev/building-an-effective-developer-portfolio)
 <!-- BLOG-POST-LIST:END -->
 
 <hr/>
