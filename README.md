@@ -31,7 +31,7 @@
 <a href="https://dev.to/leerenjie" target="_blank">
   <img src="https://img.shields.io/badge/DEV Community%20-%2312100E.svg?&style=for-the-badge&logo=dev.community">
 </a>
-<a href="https://www.freecodecamp.org/news/author/lrj/" target="_blank">
+<a href="https://www.freecodecamp.org/news/author/LeeRenJie/" target="_blank">
   <img src="https://img.shields.io/badge/freecodecamp%20-%2312100E.svg?&style=for-the-badge&logo=freecodecamp">
 </a>
 
