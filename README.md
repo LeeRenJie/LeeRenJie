@@ -1,22 +1,15 @@
-<img src="https://github.com/LeeRenJie/LeeRenJie/blob/main/images/banner.png" width="100%">
-<p align="center" >
+<p align="center">
   <samp>
-    My name is <em>Lee Ren Jie</em>. I mainly do front-end!
+    My name is <em>Lee Ren Jie</em>. I am a software engineer!
 <!--     <br/> I am currently working on my own web dev agency <a href="https://www.instagram.com/codexstudio.co/" target="_blank">CodexStudio</a> -->
     <br/> Love to do frontend
-    <br/> I Write articles on Hashnode and freeCodeCamp
-    <br/> Computer Science Student at Asia Pacific University...
     <br/> Love sports, music, and sushi 🍣
-    <br/> Continuously self-learning, hope to make a change
   </samp>
 </p><br/>
 
 <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" align="right"  width="40%" height="120%"/>
 
-## Profile Views 🔍     
-  <img src="https://profile-counter.glitch.me/LeeRenJie/count.svg" />
-
-## Reach Out To Me 📫  
+### Reach Out To Me 📫  
 <a href="mailto:work.renjie@gmail.com" target="_blank"> 
   <img src="https://img.shields.io/badge/Gmail%20-%2312100E.svg?&style=for-the-badge&logo=gmail">
 </a> 
@@ -28,7 +21,7 @@
 </a> 
 <br>
 
-## Blogs 📑
+### Blogs 📑
 <a href="https://leerenjie.hashnode.dev/" target="_blank">
   <img src="https://img.shields.io/badge/Hashnode%20-%2312100E.svg?&style=for-the-badge&logo=hashnode&logoColor=blue">
 </a> 
@@ -42,7 +35,7 @@
   <img src="https://img.shields.io/badge/freecodecamp%20-%2312100E.svg?&style=for-the-badge&logo=freecodecamp">
 </a>
 
-## Tools in my pocket🛠
+### Tools in my pocket🛠
 <p float="left">
   <img src="https://img.shields.io/badge/html5%20-%2312100E.svg?&style=for-the-badge&logo=html5&logoColor=E34F26" >
   <img src="https://img.shields.io/badge/css3%20-%2312100E.svg?&style=for-the-badge&logo=css3&logoColor=1572B6" >
@@ -72,13 +65,13 @@
   <img src="https://img.shields.io/badge/- TypeScript%20-%2312100E.svg?style=for-the-badge&logo=typescript">
 </p>
   
-## In progress 📚
+### In progress 📚
 <p>
 <img src="https://img.shields.io/badge/-Java%20-%2312100E.svg?style=for-the-badge&logo=java&logoColor=007396">
 <img src="https://img.shields.io/badge/- aws%20-%2312100E.svg?style=for-the-badge&logo=amazonwebservices">
 </p>
 
-## Recent Articles📖
+### Recent Articles📖
 <!-- BLOG-POST-LIST:START -->
 - [Git for beginners](https://leerenjie.hashnode.dev/git-for-beginners)
 - [GitHub for Beginners. What is it &amp; How to use it?](https://leerenjie.hashnode.dev/github-for-beginners)
@@ -89,35 +82,6 @@
 
 <hr/>
 
-## GitHub Summary 📈  
+### GitHub Summary 📈  
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=47% align=left height="200px" >
 <img src="https://awesome-github-stats.azurewebsites.net/user-stats/leerenjie?theme=dark&cardType=github&ring=D4AF37&show_icons=true&preferLogin=true&title=D4AF37" width=47% alt="GitHub Stats" align=right height="200px" >
-
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/></br>
-## Projects In Progress ⚙    
-<p>
-<a href="https://github.com/LeeRenJie/Portfolio">
-  <img align=left src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Portfolio&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width=47% />
-</a>
-
-<!--- 
-<a href="https://github.com/LeeRenJie/Travo">
-  <img align=right src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Travo&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width=47%/>
-</a>
-</p> 
--->
-
-<!-- </br></br></br></br></br></br></br></br>
-
-<p>
-<a href="https://github.com/LeeRenJie/100-days-of-code-in-python">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=100-days-of-code-in-python&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%"/>
-</a>
-  
- <a href="https://github.com/LeeRenJie/Learn-Ruby">
-  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeRenJie&repo=Learn-Ruby&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" width="47%"/>
-</a> -->
-</p>
-
-
