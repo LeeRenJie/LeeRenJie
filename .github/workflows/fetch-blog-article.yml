@@ -27,17 +27,17 @@ jobs:
           }
           EOF
           echo "✅ package.json created:"
-          cat package.json  # Debug: Verify contents
+          cat package.json  # Debug: Verify contents in logs
 
       - name: "⚙️ Setup Node.js"
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'npm'  # Now finds package.json for caching
+          cache: 'npm'  # Now detects package.json for caching
 
       - name: "📚 Install & Run"
         run: |
-          npm install  # Generates package-lock.json automatically
+          npm install  # Generates package-lock.json
           echo "✅ ESM enabled, running script..."
           node scripts/update-blogs.js
 
@@ -45,6 +45,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add blogs.json README.md package.json package-lock.json  # Include lockfile
+          git add blogs.json README.md package.json package-lock.json
           git commit -m "Update latest blog posts" || true
           git push
