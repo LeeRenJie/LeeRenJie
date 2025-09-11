@@ -11,13 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "📥 Checkout Repository"
-        uses: actions/checkout@v4  # Latest for stability
-
-      - name: "⚙️ Setup Node.js"
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-          cache: 'npm'  # Caches for faster re-runs
+        uses: actions/checkout@v4
 
       - name: "📦 Create package.json for ESM"
         run: |
@@ -33,11 +27,17 @@ jobs:
           }
           EOF
           echo "✅ package.json created:"
-          cat package.json  # Debug: Verify contents in logs
+          cat package.json  # Debug: Verify contents
+
+      - name: "⚙️ Setup Node.js"
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'  # Now finds package.json for caching
 
       - name: "📚 Install & Run"
         run: |
-          npm ci  # Strict, reproducible install (no warnings)
+          npm install  # Generates package-lock.json automatically
           echo "✅ ESM enabled, running script..."
           node scripts/update-blogs.js
 
@@ -45,6 +45,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add blogs.json README.md package.json
+          git add blogs.json README.md package.json package-lock.json  # Include lockfile
           git commit -m "Update latest blog posts" || true
           git push
