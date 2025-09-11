@@ -5,6 +5,7 @@ import fetch from 'node-fetch';
 const HASHNODE_USERNAME = "leerenjie";
 const HASHNODE_RSS = `https://${HASHNODE_USERNAME}.hashnode.dev/rss.xml`;
 const HASHNODE_API = "https://gql.hashnode.com/";
+const HASHNODE_HOST = `${HASHNODE_USERNAME}.hashnode.dev`;
 const FCC_FEED = "https://www.freecodecamp.org/news/author/LeeRenJie/rss.xml";
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -12,32 +13,43 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 async function fetchHashnodeGraphQL() {
   console.log("🔄 Trying Hashnode GraphQL API as fallback...");
   const query = `
-    query GetUserArticles($page: Int!) {
-      user(username: "${HASHNODE_USERNAME}") {
-        publication {
-          posts(page: $page) {
-            title
-            brief
-            slug
-            dateAdded
+    query Publication {
+      publication(host: "${HASHNODE_HOST}") {
+        posts(first: 10) {
+          edges {
+            node {
+              title
+              brief
+              slug
+              publishedAt
+              url
+            }
           }
         }
       }
     }
   `;
+  
   const res = await fetch(HASHNODE_API, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ query, variables: { page: 0 } }),
+    headers: { 
+      "Content-Type": "application/json",
+      "User-Agent": "Blog-Updater/1.0"
+    },
+    body: JSON.stringify({ query }),
   });
+  
   const data = await res.json();
-  if (!data.data?.user?.publication?.posts) {
-    throw new Error("Failed to fetch Hashnode posts via GraphQL");
+  console.log("GraphQL Response:", JSON.stringify(data, null, 2));
+  
+  if (!data.data?.publication?.posts?.edges) {
+    throw new Error("Failed to fetch Hashnode posts via GraphQL. Response: " + JSON.stringify(data));
   }
-  return data.data.user.publication.posts.map((post) => ({
-    title: post.title,
-    link: `https://${HASHNODE_USERNAME}.hashnode.dev/${post.slug}`,
-    pubDate: post.dateAdded,
+  
+  return data.data.publication.posts.edges.map((edge) => ({
+    title: edge.node.title,
+    link: edge.node.url,
+    pubDate: edge.node.publishedAt,
     source: "Hashnode",
   }));
 }
