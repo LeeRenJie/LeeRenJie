@@ -85,9 +85,9 @@ function updateReadme(posts) {
   try {
     let readmeContent = fs.readFileSync('README.md', 'utf-8');
     
-    // Create blog posts section
+    // Create blog posts section with source labels
     const blogSection = posts
-      .map(post => `- [${post.title}](${post.link})`)
+      .map(post => `- [${post.source}] [${post.title}](${post.link})`)
       .join('\n');
     
     const newBlogSection = `<!-- BLOG-POST-LIST:START -->\n${blogSection}\n<!-- BLOG-POST-LIST:END -->`;
