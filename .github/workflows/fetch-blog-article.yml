@@ -1,23 +1,29 @@
-name: Latest Blog Post Workflow
+name: "📚 Latest Blogs"
+
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *' # Runs every day at 06:00 UTC
-  workflow_dispatch: # Run workflow manually
+    - cron: "0 6 * * *" # Runs every day at 06:00 UTC
 
 jobs:
-  update-readme-with-blog-posts:
-    name: Update README with the latest blog posts
+  update_blogs:
+    name: "Update README with Latest Blogs"
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
+      - name: "📥 Checkout Repository"
+        uses: actions/checkout@v3
 
-      - name: Fetch Blog Posts
-        uses: gautamkrishnar/blog-post-workflow@v1
+      - name: "⚙️ Setup Node.js"
+        uses: actions/setup-node@v4
         with:
-          feed_list: "https://api.rss2json.com/v1/api.json?rss_url=https://leerenjie.hashnode.dev/rss.xml,https://www.freecodecamp.org/news/author/LeeRenJie/rss/"
+          node-version: 18
 
-      - name: Commit and Push Changes
+      - name: "📚 Fetch & Update Blogs"
+        run: |
+          npm install rss-parser node-fetch
+          node scripts/update-blogs.js
+
+      - name: "💾 Commit and Push Changes"
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
