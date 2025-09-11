@@ -69,7 +69,7 @@ async function fetchFreeCodeCamp() {
       title: item.title?.replace(/\n/g, '').trim(),
       link: item.link,
       pubDate: item.pubDate,
-      source: "freeCodeCamp",
+      source: "FreeCodeCamp",
     }));
     console.log(`📝 FreeCodeCamp posts found: ${posts.length}`);
     return posts;
@@ -85,9 +85,9 @@ function updateReadme(posts) {
   try {
     let readmeContent = fs.readFileSync('README.md', 'utf-8');
     
-    // Create blog posts section with source labels
+    // Create blog posts section with title - [source] format
     const blogSection = posts
-      .map(post => `- [${post.source}] [${post.title}](${post.link})`)
+      .map(post => `- [${post.title} - [${post.source}]](${post.link})`)
       .join('\n');
     
     const newBlogSection = `<!-- BLOG-POST-LIST:START -->\n${blogSection}\n<!-- BLOG-POST-LIST:END -->`;
