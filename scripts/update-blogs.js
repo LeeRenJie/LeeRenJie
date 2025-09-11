@@ -1,9 +1,9 @@
-const ParserClass = require("rss-parser").default;
-const fs = require("fs");
-const fetch = require("node-fetch");
+import Parser from 'rss-parser';
+import fs from 'fs';
+import fetch from 'node-fetch';
 
 const HASHNODE_API = "https://gql.hashnode.com/";
-const HASHNODE_USERNAME = "leerenjie"; // change if needed
+const HASHNODE_USERNAME = "leerenjie";
 const FCC_FEED = "https://www.freecodecamp.org/news/author/leerenjie/rss/";
 
 async function fetchHashnode() {
@@ -21,18 +21,15 @@ async function fetchHashnode() {
       }
     }
   `;
-
   const res = await fetch(HASHNODE_API, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ query, variables: { page: 0 } }),
   });
-
   const data = await res.json();
   if (!data.data?.user?.publication?.posts) {
     throw new Error("Failed to fetch Hashnode posts. Response: " + JSON.stringify(data));
   }
-
   return data.data.user.publication.posts.map((post) => ({
     title: post.title,
     link: `https://${HASHNODE_USERNAME}.hashnode.dev/${post.slug}`,
@@ -42,9 +39,8 @@ async function fetchHashnode() {
 }
 
 async function fetchFreeCodeCamp() {
-  const Parser = new ParserClass();
-  const feed = await Parser.parseURL(FCC_FEED);
-
+  const parser = new Parser();
+  const feed = await parser.parseURL(FCC_FEED);
   return feed.items.map((item) => ({
     title: item.title,
     link: item.link,
@@ -59,16 +55,13 @@ async function main() {
       fetchHashnode(),
       fetchFreeCodeCamp(),
     ]);
-
     // merge and sort by date
     const allPosts = [...hashnodePosts, ...fccPosts].sort(
       (a, b) => new Date(b.pubDate) - new Date(a.pubDate)
     );
-
     // keep latest 5
     const latestFive = allPosts.slice(0, 5);
-
-    // save to file (adjust path as needed)
+    // save to file
     fs.writeFileSync("blogs.json", JSON.stringify(latestFive, null, 2));
     console.log("✅ Blogs updated:", latestFive);
   } catch (err) {
