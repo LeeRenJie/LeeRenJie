@@ -1,10 +1,8 @@
 name: "📚 Latest Blogs"
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *" # Runs every day at 06:00 UTC
-
+    - cron: "0 6 * * *"
 jobs:
   update_blogs:
     name: "Update README with Latest Blogs"
@@ -12,7 +10,6 @@ jobs:
     steps:
       - name: "📥 Checkout Repository"
         uses: actions/checkout@v4
-
       - name: "📦 Create package.json for ESM"
         run: |
           cat > package.json << 'EOF'
@@ -26,21 +23,14 @@ jobs:
             }
           }
           EOF
-          echo "✅ package.json created:"
-          cat package.json  # Debug: Verify contents in logs
-
       - name: "⚙️ Setup Node.js"
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'npm'  # Now detects package.json for caching
-
       - name: "📚 Install & Run"
         run: |
-          npm install  # Generates package-lock.json
-          echo "✅ ESM enabled, running script..."
+          npm install
           node scripts/update-blogs.js
-
       - name: "💾 Commit and Push"
         run: |
           git config --local user.email "action@github.com"
