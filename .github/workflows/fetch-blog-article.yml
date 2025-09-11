@@ -16,7 +16,7 @@ jobs:
       - name: Fetch Blog Posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://leerenjie.hashnode.dev/rss.xml,https://www.freecodecamp.org/news/author/lrj/rss/"
+          feed_list: "https://leerenjie.hashnode.dev/rss.xml,https://www.freecodecamp.org/news/author/LeeRenJie/rss/"
 
       # Commit and push changes
       - name: Commit and Push Changes
