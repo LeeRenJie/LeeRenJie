@@ -23,12 +23,16 @@ jobs:
           echo '{
             "name": "update-blogs",
             "version": "1.0.0",
-            "type": "module"
+            "type": "module",
+            "dependencies": {
+              "rss-parser": "^3.13.0",
+              "node-fetch": "^3.3.2"
+            }
           }' > package.json
 
       - name: "📚 Fetch & Update Blogs"
         run: |
-          npm install rss-parser node-fetch
+          npm ci  # Uses package.json for clean, reproducible install
           node scripts/update-blogs.js
 
       - name: "💾 Commit and Push Changes"
