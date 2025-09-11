@@ -1,7 +1,6 @@
-// scripts/update-blogs.js
-import Parser from "rss-parser";
-import fs from "fs";
-import fetch from "node-fetch";
+const ParserClass = require("rss-parser").default;
+const fs = require("fs");
+const fetch = require("node-fetch");
 
 const HASHNODE_API = "https://gql.hashnode.com/";
 const HASHNODE_USERNAME = "leerenjie"; // change if needed
@@ -43,8 +42,8 @@ async function fetchHashnode() {
 }
 
 async function fetchFreeCodeCamp() {
-  const parser = new Parser();
-  const feed = await parser.parseURL(FCC_FEED);
+  const Parser = new ParserClass();
+  const feed = await Parser.parseURL(FCC_FEED);
 
   return feed.items.map((item) => ({
     title: item.title,
