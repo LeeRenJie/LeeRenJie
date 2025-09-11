@@ -18,6 +18,14 @@ jobs:
         with:
           node-version: 18
 
+      - name: "📦 Create package.json for ES modules"
+        run: |
+          echo '{
+            "name": "update-blogs",
+            "version": "1.0.0",
+            "type": "module"
+          }' > package.json
+
       - name: "📚 Fetch & Update Blogs"
         run: |
           npm install rss-parser node-fetch
@@ -27,6 +35,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md
+          git add README.md blogs.json package.json
           git commit -m "Update latest blog posts" || true
           git push
