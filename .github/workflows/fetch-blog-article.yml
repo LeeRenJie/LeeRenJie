@@ -11,39 +11,64 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "📥 Checkout Repository"
-        uses: actions/checkout@v4  # Updated to latest
+        uses: actions/checkout@v4
 
-      - name: "📦 Create package.json for ES modules"
-        run: |
-          cat > package.json << EOF
-          {
-            "name": "update-blogs",
-            "version": "1.0.0",
-            "type": "module",
-            "dependencies": {
-              "rss-parser": "^3.13.0",
-              "node-fetch": "^2.7.0"
-            }
-          }
-          EOF
-          echo "Created package.json:"
-          cat package.json
-
-      - name: "⚙️ Setup Node.js"
-        uses: actions/setup-node@v4  # Updated to latest
-        with:
-          node-version: 18
-          cache: 'npm'  # Enables caching based on package-lock.json
-      
       - name: "📚 Fetch & Update Blogs"
         run: |
-          npm install rss-parser node-fetch@2
-          node scripts/update-blogs.js
+          # Variables
+          HASHNODE_USERNAME="leerenjie"
+          HASHNODE_API="https://gql.hashnode.com"
+          FCC_FEED="https://www.freecodecamp.org/news/author/leerenjie/rss/"
+
+          # Step 1: Fetch Hashnode posts via GraphQL (public, no auth)
+          echo "Fetching Hashnode posts..."
+          HASHNODE_QUERY='{"query":"query GetUserArticles($page: Int!) { user(username: \"'"$HASHNODE_USERNAME"'\") { publication { posts(page: $page) { title brief slug dateAdded } } } }","variables":{"page":0}}'
+          HASHNODE_RESPONSE=$(curl -s -X POST -H "Content-Type: application/json" -d "$HASHNODE_QUERY" "$HASHNODE_API")
+          
+          # Extract posts with jq; map to required fields
+          if [ -z "$HASHNODE_RESPONSE" ] || [ "$HASHNODE_RESPONSE" = "null" ]; then
+            echo "⚠️ No Hashnode response"
+            HASHNODE_POSTS='[]'
+          else
+            HASHNODE_POSTS=$(echo "$HASHNODE_RESPONSE" | jq -c '[.data.user.publication.posts[] | {title: .title, link: "https://'"$HASHNODE_USERNAME"'.hashnode.dev/\(.slug)", pubDate: .dateAdded, source: "Hashnode"}]')
+            if [ "$HASHNODE_POSTS" = "null" ] || [ "$HASHNODE_POSTS" = "[]" ]; then
+              HASHNODE_POSTS='[]'
+            fi
+          fi
+          echo "Hashnode posts: $HASHNODE_POSTS"
+
+          # Step 2: Fetch freeCodeCamp RSS
+          echo "Fetching freeCodeCamp posts..."
+          FCC_RESPONSE=$(curl -s "$FCC_FEED")
+          if [ -z "$FCC_RESPONSE" ]; then
+            echo "⚠️ No FCC response"
+            FCC_POSTS='[]'
+          else
+            # Parse RSS XML to JSON with xmllint + jq (pre-installed)
+            FCC_JSON=$(echo "$FCC_RESPONSE" | xmllint --format - 2>/dev/null | sed -n '/<item>/,/<\/item>/p' | xmlstarlet sel -N x="http://search.yahoo.com/mrss/" -t -v "//item/title" -o "|" -v "//item/link" -o "|" -v "//item/pubDate" | while IFS='|' read -r title link pubDate; do
+              if [ -n "$title" ] && [ -n "$link" ] && [ -n "$pubDate" ]; then
+                echo "{\"title\":\"$title\",\"link\":\"$link\",\"pubDate\":\"$pubDate\",\"source\":\"freeCodeCamp\"}"
+              fi
+            done | jq -s -c '.')
+            FCC_POSTS="$FCC_JSON"
+            if [ "$FCC_POSTS" = "null" ] || [ "$FCC_POSTS" = "[]" ]; then
+              FCC_POSTS='[]'
+            fi
+          fi
+          echo "FCC posts: $FCC_POSTS"
+
+          # Step 3: Merge, sort by pubDate descending, slice top 5
+          ALL_POSTS=$(echo "$HASHNODE_POSTS $FCC_POSTS" | jq -s 'add')
+          LATEST_FIVE=$(echo "$ALL_POSTS" | jq -s 'sort_by(.pubDate) | reverse | .[0:5]')
+
+          # Step 4: Save to blogs.json
+          echo "$LATEST_FIVE" | jq . > blogs.json
+          echo "✅ Blogs updated: $(cat blogs.json)"
 
       - name: "💾 Commit and Push Changes"
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md blogs.json package.json
+          git add blogs.json README.md  # Add README.md if your file uses blogs.json
           git commit -m "Update latest blog posts" || true
           git push
