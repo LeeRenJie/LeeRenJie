@@ -75,6 +75,9 @@
 <!-- BLOG-POST-LIST:START -->
 - [Why Every Student Should Join Hackathons](https://www.freecodecamp.org/news/why-every-student-should-join-hackathons/)
 - [How to Excel as a New Developer and Beat the Dunning-Kruger Trap](https://www.freecodecamp.org/news/the-dunning-kruger-effect/)
+- [Git for beginners](https://leerenjie.hashnode.dev/git-for-beginners)
+- [GitHub for Beginners. What is it & How to use it?](https://leerenjie.hashnode.dev/github-for-beginners)
+- [Day 6: Growing with Open Source](https://leerenjie.hashnode.dev/growing-with-open-source)
 <!-- BLOG-POST-LIST:END -->
 
 <hr/>
