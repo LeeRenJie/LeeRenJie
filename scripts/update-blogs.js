@@ -2,38 +2,17 @@ import Parser from 'rss-parser';
 import fs from 'fs';
 import fetch from 'node-fetch';
 
-const HASHNODE_API = "https://gql.hashnode.com/";
 const HASHNODE_USERNAME = "leerenjie";
-const FCC_FEED = "https://www.freecodecamp.org/news/author/leerenjie/rss/";
+const HASHNODE_RSS = `https://${HASHNODE_USERNAME}.hashnode.dev/rss.xml`;
+const FCC_FEED = "https://www.freecodecamp.org/news/author/LeeRenJie/rss.xml";
 
 async function fetchHashnode() {
-  const query = `
-    query GetUserArticles($page: Int!) {
-      user(username: "${HASHNODE_USERNAME}") {
-        publication {
-          posts(page: $page) {
-            title
-            brief
-            slug
-            dateAdded
-          }
-        }
-      }
-    }
-  `;
-  const res = await fetch(HASHNODE_API, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ query, variables: { page: 0 } }),
-  });
-  const data = await res.json();
-  if (!data.data?.user?.publication?.posts) {
-    throw new Error("Failed to fetch Hashnode posts. Response: " + JSON.stringify(data));
-  }
-  return data.data.user.publication.posts.map((post) => ({
-    title: post.title,
-    link: `https://${HASHNODE_USERNAME}.hashnode.dev/${post.slug}`,
-    pubDate: post.dateAdded,
+  const parser = new Parser();
+  const feed = await parser.parseURL(HASHNODE_RSS);
+  return feed.items.map((item) => ({
+    title: item.title,
+    link: item.link,
+    pubDate: item.pubDate,
     source: "Hashnode",
   }));
 }
