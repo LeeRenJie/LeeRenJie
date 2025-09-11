@@ -11,28 +11,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "📥 Checkout Repository"
-        uses: actions/checkout@v3
-
-      - name: "⚙️ Setup Node.js"
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
+        uses: actions/checkout@v4  # Updated to latest
 
       - name: "📦 Create package.json for ES modules"
         run: |
-          echo '{
+          cat > package.json << EOF
+          {
             "name": "update-blogs",
             "version": "1.0.0",
             "type": "module",
             "dependencies": {
               "rss-parser": "^3.13.0",
-              "node-fetch": "^3.3.2"
+              "node-fetch": "^2.7.0"
             }
-          }' > package.json
+          }
+          EOF
+          echo "Created package.json:"
+          cat package.json
+
+      - name: "⚙️ Setup Node.js"
+        uses: actions/setup-node@v4  # Updated to latest
+        with:
+          node-version: 18
+          cache: 'npm'  # Enables caching based on package-lock.json
 
       - name: "📚 Fetch & Update Blogs"
         run: |
-          npm ci  # Uses package.json for clean, reproducible install
+          npm ci  # Reproducible install from package.json
           node scripts/update-blogs.js
 
       - name: "💾 Commit and Push Changes"
