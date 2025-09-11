@@ -3,7 +3,6 @@ import fs from 'fs';
 import fetch from 'node-fetch';
 
 const HASHNODE_USERNAME = "leerenjie";
-const HASHNODE_RSS = `https://${HASHNODE_USERNAME}.hashnode.dev/rss.xml`;
 const HASHNODE_API = "https://gql.hashnode.com/";
 const HASHNODE_HOST = `${HASHNODE_USERNAME}.hashnode.dev`;
 const FCC_FEED = "https://www.freecodecamp.org/news/author/LeeRenJie/rss.xml";
@@ -11,7 +10,7 @@ const FCC_FEED = "https://www.freecodecamp.org/news/author/LeeRenJie/rss.xml";
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 async function fetchHashnodeGraphQL() {
-  console.log("🔄 Trying Hashnode GraphQL API as fallback...");
+  console.log("🔍 Fetching Hashnode posts via GraphQL...");
   const query = `
     query Publication {
       publication(host: "${HASHNODE_HOST}") {
@@ -40,74 +39,33 @@ async function fetchHashnodeGraphQL() {
   });
   
   const data = await res.json();
-  console.log("GraphQL Response:", JSON.stringify(data, null, 2));
   
   if (!data.data?.publication?.posts?.edges) {
-    throw new Error("Failed to fetch Hashnode posts via GraphQL. Response: " + JSON.stringify(data));
+    throw new Error("Failed to fetch Hashnode posts via GraphQL");
   }
   
-  return data.data.publication.posts.edges.map((edge) => ({
+  const posts = data.data.publication.posts.edges.map((edge) => ({
     title: edge.node.title,
     link: edge.node.url,
     pubDate: edge.node.publishedAt,
     source: "Hashnode",
   }));
+  
+  console.log(`📝 Hashnode GraphQL posts found: ${posts.length}`);
+  return posts;
 }
 
-async function fetchWithRetry(url, retries = 2, delayMs = 5000) {
+async function fetchFreeCodeCamp() {
+  console.log("🔍 Fetching FreeCodeCamp posts...");
   const parser = new Parser({
     headers: {
       'User-Agent': 'Mozilla/5.0 (compatible; Blog-Updater/1.0)'
     }
   });
   
-  for (let i = 0; i < retries; i++) {
-    try {
-      if (i > 0) {
-        console.log(`Retry ${i} for ${url}...`);
-        await delay(delayMs * i);
-      }
-      console.log(`Fetching: ${url}`);
-      const feed = await parser.parseURL(url);
-      console.log(`✅ Successfully fetched ${feed.items.length} items from ${url}`);
-      return feed.items;
-    } catch (error) {
-      console.warn(`❌ Attempt ${i + 1} failed for ${url}:`, error.message);
-      if (i === retries - 1) throw error;
-    }
-  }
-}
-
-async function fetchHashnode() {
   try {
-    console.log("🔍 Fetching Hashnode posts via RSS...");
-    const items = await fetchWithRetry(HASHNODE_RSS);
-    const posts = items.map((item) => ({
-      title: item.title?.trim(),
-      link: item.link,
-      pubDate: item.pubDate,
-      source: "Hashnode",
-    }));
-    console.log(`📝 Hashnode RSS posts found: ${posts.length}`);
-    return posts;
-  } catch (error) {
-    console.warn("⚠️ RSS failed, trying GraphQL API...");
-    try {
-      const posts = await fetchHashnodeGraphQL();
-      console.log(`📝 Hashnode GraphQL posts found: ${posts.length}`);
-      return posts;
-    } catch (apiError) {
-      console.warn("⚠️ Could not fetch Hashnode posts:", apiError.message);
-      return [];
-    }
-  }
-}
-
-async function fetchFreeCodeCamp() {
-  try {
-    console.log("🔍 Fetching FreeCodeCamp posts...");
-    const items = await fetchWithRetry(FCC_FEED);
-    const posts = items.map((item) => ({
+    const feed = await parser.parseURL(FCC_FEED);
+    const posts = feed.items.map((item) => ({
       title: item.title?.replace(/\n/g, '').trim(),
       link: item.link,
       pubDate: item.pubDate,
@@ -121,11 +79,42 @@ async function fetchFreeCodeCamp() {
   }
 }
 
+function updateReadme(posts) {
+  console.log("📝 Updating README.md...");
+  
+  try {
+    let readmeContent = fs.readFileSync('README.md', 'utf-8');
+    
+    // Create blog posts section
+    const blogSection = posts
+      .map(post => `- [${post.title}](${post.link})`)
+      .join('\n');
+    
+    const newBlogSection = `<!-- BLOG-POST-LIST:START -->\n${blogSection}\n<!-- BLOG-POST-LIST:END -->`;
+    
+    // Replace existing blog section or add it if it doesn't exist
+    if (readmeContent.includes('<!-- BLOG-POST-LIST:START -->')) {
+      readmeContent = readmeContent.replace(
+        /<!-- BLOG-POST-LIST:START -->[\s\S]*?<!-- BLOG-POST-LIST:END -->/,
+        newBlogSection
+      );
+    } else {
+      // If no blog section exists, add it at the end
+      readmeContent += '\n\n### Recent Articles📖\n' + newBlogSection;
+    }
+    
+    fs.writeFileSync('README.md', readmeContent);
+    console.log("✅ README.md updated successfully");
+  } catch (error) {
+    console.error("❌ Failed to update README.md:", error.message);
+  }
+}
+
 async function main() {
   try {
-    // Fetch sequentially with delays
-    const hashnodePosts = await fetchHashnode();
-    await delay(5000); // Wait 5 seconds
+    // Fetch from both sources
+    const hashnodePosts = await fetchHashnodeGraphQL();
+    await delay(3000); // Wait between requests
     const fccPosts = await fetchFreeCodeCamp();
     
     console.log("📊 Summary:");
@@ -149,9 +138,13 @@ async function main() {
     
     if (latestFive.length === 0) {
       console.warn("⚠️ No posts found from any source");
-      fs.writeFileSync("blogs.json", JSON.stringify([], null, 2));
     } else {
+      // Save to JSON
       fs.writeFileSync("blogs.json", JSON.stringify(latestFive, null, 2));
+      
+      // Update README
+      updateReadme(latestFive);
+      
       console.log("✅ Blogs updated successfully");
     }
   } catch (err) {
