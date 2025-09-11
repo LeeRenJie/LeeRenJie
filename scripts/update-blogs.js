@@ -1,16 +1,20 @@
-const fs = require("fs");
-const Parser = require("rss-parser");
+// scripts/update-blogs.js
+import Parser from "rss-parser";
+import fs from "fs";
+import fetch from "node-fetch";
 
-const parser = new Parser();
+const HASHNODE_API = "https://gql.hashnode.com/";
+const HASHNODE_USERNAME = "leerenjie"; // change if needed
+const FCC_FEED = "https://www.freecodecamp.org/news/author/leerenjie/rss/";
 
-// 🔹 Fetch Hashnode posts via GraphQL API
 async function fetchHashnode() {
   const query = `
-    {
-      user(username: "leerenjie") {
+    query GetUserArticles($page: Int!) {
+      user(username: "${HASHNODE_USERNAME}") {
         publication {
-          posts(page: 0) {
+          posts(page: $page) {
             title
+            brief
             slug
             dateAdded
           }
@@ -19,60 +23,59 @@ async function fetchHashnode() {
     }
   `;
 
-  const res = await fetch("https://api.hashnode.com/", {
+  const res = await fetch(HASHNODE_API, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ query })
+    body: JSON.stringify({ query, variables: { page: 0 } }),
   });
 
   const data = await res.json();
-  return data.data.user.publication.posts.map(post => ({
+  if (!data.data?.user?.publication?.posts) {
+    throw new Error("Failed to fetch Hashnode posts. Response: " + JSON.stringify(data));
+  }
+
+  return data.data.user.publication.posts.map((post) => ({
     title: post.title,
-    link: `https://leerenjie.hashnode.dev/${post.slug}`,
-    date: new Date(post.dateAdded)
+    link: `https://${HASHNODE_USERNAME}.hashnode.dev/${post.slug}`,
+    pubDate: post.dateAdded,
+    source: "Hashnode",
   }));
 }
 
-// 🔹 Fetch FreeCodeCamp posts via RSS
-async function fetchFCC() {
-  const feed = await parser.parseURL(
-    "https://www.freecodecamp.org/news/author/LeeRenJie/rss/"
-  );
-  return feed.items.map(item => ({
+async function fetchFreeCodeCamp() {
+  const parser = new Parser();
+  const feed = await parser.parseURL(FCC_FEED);
+
+  return feed.items.map((item) => ({
     title: item.title,
     link: item.link,
-    date: new Date(item.isoDate)
+    pubDate: item.pubDate,
+    source: "freeCodeCamp",
   }));
 }
 
-(async () => {
+async function main() {
   try {
-    const hashnodePosts = await fetchHashnode();
-    const fccPosts = await fetchFCC();
+    const [hashnodePosts, fccPosts] = await Promise.all([
+      fetchHashnode(),
+      fetchFreeCodeCamp(),
+    ]);
 
-    // Merge, sort by date, take latest 5
-    const allPosts = [...hashnodePosts, ...fccPosts]
-      .sort((a, b) => b.date - a.date)
-      .slice(0, 5);
+    // merge and sort by date
+    const allPosts = [...hashnodePosts, ...fccPosts].sort(
+      (a, b) => new Date(b.pubDate) - new Date(a.pubDate)
+    );
 
-    // Format as Markdown list
-    const list = allPosts
-      .map(p => `- [${p.title}](${p.link}) - ${p.date.toISOString().split("T")[0]}`)
-      .join("\n");
+    // keep latest 5
+    const latestFive = allPosts.slice(0, 5);
 
-    // Replace placeholder in README
-    let readme = fs.readFileSync("README.md", "utf8");
-    const start = "<!-- BLOG-POST-LIST:START -->";
-    const end = "<!-- BLOG-POST-LIST:END -->";
-    const regex = new RegExp(`${start}[\\s\\S]*${end}`, "m");
-
-    const replacement = `${start}\n${list}\n${end}`;
-    readme = readme.replace(regex, replacement);
-
-    fs.writeFileSync("README.md", readme);
-    console.log("✅ README updated with latest blog posts.");
+    // save to file (adjust path as needed)
+    fs.writeFileSync("blogs.json", JSON.stringify(latestFive, null, 2));
+    console.log("✅ Blogs updated:", latestFive);
   } catch (err) {
     console.error("❌ Failed to update blogs:", err);
     process.exit(1);
   }
-})();
+}
+
+main();
