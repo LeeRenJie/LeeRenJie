@@ -11,32 +11,40 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "📥 Checkout Repository"
-        uses: actions/checkout@v4  # Latest version for better perf
+        uses: actions/checkout@v4  # Latest for stability
 
       - name: "⚙️ Setup Node.js"
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'npm'  # Caches deps for faster runs
+          cache: 'npm'  # Caches for faster re-runs
 
-      - name: "📦 Create package.json to Enable ES Modules"
+      - name: "📦 Create package.json for ESM"
         run: |
-          echo '{
-            "name": "update-blogs-script",
+          cat > package.json << 'EOF'
+          {
+            "name": "update-blogs",
             "version": "1.0.0",
-            "type": "module"
-          }' > package.json
-          echo "✅ package.json created with ESM support"
+            "type": "module",
+            "dependencies": {
+              "rss-parser": "^3.13.0",
+              "node-fetch": "^3.3.2"
+            }
+          }
+          EOF
+          echo "✅ package.json created:"
+          cat package.json  # Debug: Verify contents in logs
 
-      - name: "📚 Install Deps & Run Script"
+      - name: "📚 Install & Run"
         run: |
-          npm install rss-parser node-fetch
+          npm ci  # Strict, reproducible install (no warnings)
+          echo "✅ ESM enabled, running script..."
           node scripts/update-blogs.js
 
-      - name: "💾 Commit and Push Changes"
+      - name: "💾 Commit and Push"
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add blogs.json README.md package.json  # Include package.json if you want to persist it
+          git add blogs.json README.md package.json
           git commit -m "Update latest blog posts" || true
           git push
