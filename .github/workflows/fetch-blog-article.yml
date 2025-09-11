@@ -12,13 +12,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      # Fetch latest Hashnode and FreeCodeCamp blog posts
       - name: Fetch Blog Posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://leerenjie.hashnode.dev/rss.xml,https://www.freecodecamp.org/news/author/LeeRenJie/rss/"
+          feed_list: "https://api.rss2json.com/v1/api.json?rss_url=https://leerenjie.hashnode.dev/rss.xml,https://www.freecodecamp.org/news/author/LeeRenJie/rss/"
 
-      # Commit and push changes
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
