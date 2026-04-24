@@ -1,5 +1,11 @@
 [
   {
+    "title": "How to Build a Headless WordPress Frontend with Astro SSR on Cloudflare Pages",
+    "link": "https://www.freecodecamp.org/news/how-to-build-a-headless-wordpress-frontend-with-astro-ssr-on-cloudflare-pages/",
+    "pubDate": "Mon, 20 Apr 2026 17:07:58 +0000",
+    "source": "FreeCodeCamp"
+  },
+  {
     "title": "Why Every Student Should Join Hackathons",
     "link": "https://www.freecodecamp.org/news/why-every-student-should-join-hackathons/",
     "pubDate": "Thu, 11 Sep 2025 01:34:29 +0000",
@@ -21,12 +27,6 @@
     "title": "GitHub for Beginners. What is it & How to use it?",
     "link": "https://leerenjie.hashnode.dev/github-for-beginners",
     "pubDate": "2021-04-28T00:19:23.693Z",
-    "source": "Hashnode"
-  },
-  {
-    "title": "Day 6: Growing with Open Source",
-    "link": "https://leerenjie.hashnode.dev/growing-with-open-source",
-    "pubDate": "2021-04-22T23:59:59.345Z",
     "source": "Hashnode"
   }
 ]
