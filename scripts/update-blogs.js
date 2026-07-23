@@ -1,59 +1,7 @@
 import Parser from 'rss-parser';
 import fs from 'fs';
-import fetch from 'node-fetch';
 
-const HASHNODE_USERNAME = "leerenjie";
-const HASHNODE_API = "https://gql.hashnode.com/";
-const HASHNODE_HOST = `${HASHNODE_USERNAME}.hashnode.dev`;
 const FCC_FEED = "https://www.freecodecamp.org/news/author/LeeRenJie/rss.xml";
-
-const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
-async function fetchHashnodeGraphQL() {
-  console.log("🔍 Fetching Hashnode posts via GraphQL...");
-  const query = `
-    query Publication {
-      publication(host: "${HASHNODE_HOST}") {
-        posts(first: 10) {
-          edges {
-            node {
-              title
-              brief
-              slug
-              publishedAt
-              url
-            }
-          }
-        }
-      }
-    }
-  `;
-  
-  const res = await fetch(HASHNODE_API, {
-    method: "POST",
-    headers: { 
-      "Content-Type": "application/json",
-      "User-Agent": "Blog-Updater/1.0"
-    },
-    body: JSON.stringify({ query }),
-  });
-  
-  const data = await res.json();
-  
-  if (!data.data?.publication?.posts?.edges) {
-    throw new Error("Failed to fetch Hashnode posts via GraphQL");
-  }
-  
-  const posts = data.data.publication.posts.edges.map((edge) => ({
-    title: edge.node.title,
-    link: edge.node.url,
-    pubDate: edge.node.publishedAt,
-    source: "Hashnode",
-  }));
-  
-  console.log(`📝 Hashnode GraphQL posts found: ${posts.length}`);
-  return posts;
-}
 
 async function fetchFreeCodeCamp() {
   console.log("🔍 Fetching FreeCodeCamp posts...");
@@ -112,17 +60,13 @@ function updateReadme(posts) {
 
 async function main() {
   try {
-    // Fetch from both sources
-    const hashnodePosts = await fetchHashnodeGraphQL();
-    await delay(3000); // Wait between requests
     const fccPosts = await fetchFreeCodeCamp();
     
     console.log("📊 Summary:");
-    console.log(`- Hashnode: ${hashnodePosts.length} posts`);
     console.log(`- FreeCodeCamp: ${fccPosts.length} posts`);
     
-    // merge and sort by date
-    const allPosts = [...hashnodePosts, ...fccPosts].sort(
+    // sort by date
+    const allPosts = [...fccPosts].sort(
       (a, b) => new Date(b.pubDate) - new Date(a.pubDate)
     );
     
@@ -137,7 +81,7 @@ async function main() {
     });
     
     if (latestFive.length === 0) {
-      console.warn("⚠️ No posts found from any source");
+      console.warn("⚠️ No posts found from FreeCodeCamp");
     } else {
       // Save to JSON
       fs.writeFileSync("blogs.json", JSON.stringify(latestFive, null, 2));
