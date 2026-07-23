@@ -1,8 +1,6 @@
 <p align="center">
   <samp>
-    My name is <em>Lee Ren Jie</em>. I am a software engineer!
-<!--     <br/> I am currently working on my own web dev agency <a href="https://www.instagram.com/codexstudio.co/" target="_blank">CodexStudio</a> -->
-    <br/> Love to do frontend
+    My name is <em>Lee Ren Jie (RJ)</em>. I am a full-stack software engineer!
     <br/> Love sports, music, and sushi 🍣
   </samp>
 </p><br/>
@@ -77,5 +75,6 @@
 <hr/>
 
 ### GitHub Summary 📈  
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=47% align=left height="200px" >
-<img src="https://awesome-github-stats.azurewebsites.net/user-stats/leerenjie?theme=dark&cardType=github&ring=D4AF37&show_icons=true&title=D4AF37" width=47% alt="GitHub Stats" align=right height="200px" >
+<img src="https://awesome-github-stats.azurewebsites.net/user-stats/leerenjie?theme=dark&cardType=github&ring=D4AF37&show_icons=true&title=D4AF37" width=47% alt="GitHub Stats" align=left height="200px" >
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeeRenJie&theme=blue-green&layout=compact" width=47% align=right height="200px" >
+
