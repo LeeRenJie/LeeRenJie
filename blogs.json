@@ -1,5 +1,17 @@
 [
   {
+    "title": "How I Used Harness Engineering to Make Our Company AI-Native",
+    "link": "https://www.freecodecamp.org/news/harness-engineering-ai-native-company/",
+    "pubDate": "Wed, 15 Jul 2026 15:34:41 +0000",
+    "source": "FreeCodeCamp"
+  },
+  {
+    "title": "How to Build an AI Support Agent That Knows When NOT to Answer Tickets",
+    "link": "https://www.freecodecamp.org/news/how-to-build-an-ai-support-agent-that-knows-when-not-to-answer-tickets/",
+    "pubDate": "Mon, 01 Jun 2026 16:19:11 +0000",
+    "source": "FreeCodeCamp"
+  },
+  {
     "title": "How I Tested Malaysia's Open Data Portals with Plain English",
     "link": "https://www.freecodecamp.org/news/how-i-tested-malaysia-s-open-data-portals-with-plain-english/",
     "pubDate": "Thu, 23 Apr 2026 23:37:22 +0000",
@@ -16,17 +28,5 @@
     "link": "https://www.freecodecamp.org/news/why-every-student-should-join-hackathons/",
     "pubDate": "Thu, 11 Sep 2025 01:34:29 +0000",
     "source": "FreeCodeCamp"
-  },
-  {
-    "title": "How to Excel as a New Developer and Beat the Dunning-Kruger Trap",
-    "link": "https://www.freecodecamp.org/news/the-dunning-kruger-effect/",
-    "pubDate": "Mon, 23 Oct 2023 21:00:12 +0000",
-    "source": "FreeCodeCamp"
-  },
-  {
-    "title": "Git for beginners",
-    "link": "https://leerenjie.hashnode.dev/git-for-beginners",
-    "pubDate": "2021-05-01T01:34:37.331Z",
-    "source": "Hashnode"
   }
 ]
